@@ -1,0 +1,28 @@
+{%- comment -%}
+  Road to Beijing 27 – Einbettung in den Shop (Theme „Studio“)
+  In: Onlineshop › Themes › Anpassen › Seitenvorlage „road-to-beijing“ › Abschnitt „Benutzerdefiniertes Liquid“
+  Die Seite selbst liegt auf quali.auslaufen-podcast.de und aktualisiert sich automatisch.
+{%- endcomment -%}
+<div class="rtb-embed" style="background:#f2f3f4;width:100%;">
+  <iframe
+    id="rtb-frame"
+    src="https://quali.auslaufen-podcast.de/"
+    title="Road to Beijing 27: deutsche Läufer:innen auf der WM-Quali-Liste"
+    style="display:block;width:100%;border:0;min-height:1800px;"
+    loading="eager"
+  ></iframe>
+  <noscript><p style="padding:24px"><a href="https://quali.auslaufen-podcast.de/">Road to Beijing 27 öffnen</a></p></noscript>
+</div>
+<script>
+  (function () {
+    var ORIGIN = 'https://quali.auslaufen-podcast.de';
+    var frame = document.getElementById('rtb-frame');
+    // Direktlink aus dem Shop weiterreichen, z. B. /pages/road-to-beijing#marathon-maenner
+    if (location.hash) frame.src = ORIGIN + '/' + location.hash;
+    window.addEventListener('message', function (e) {
+      if (e.origin !== ORIGIN || !e.data) return;
+      if (e.data.type === 'rtb-height') { frame.style.minHeight = '0'; frame.style.height = e.data.height + 'px'; }
+      if (e.data.type === 'rtb-hash' && location.hash !== e.data.hash) history.replaceState(null, '', e.data.hash);
+    });
+  })();
+</script>

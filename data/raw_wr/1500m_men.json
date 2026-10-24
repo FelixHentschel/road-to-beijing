@@ -1,0 +1,85 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 12,
+   "name": "Robert FARKEN",
+   "score": 1310
+  },
+  {
+   "place": 83,
+   "name": "Marc TORTELL",
+   "score": 1186
+  },
+  {
+   "place": 122,
+   "name": "Marius PROBST",
+   "score": 1159
+  },
+  {
+   "place": 139,
+   "name": "Tobias TENT",
+   "score": 1147
+  },
+  {
+   "place": 154,
+   "name": "Benne C. ANDERSON",
+   "score": 1139
+  },
+  {
+   "place": 186,
+   "name": "Florian ZITTEL",
+   "score": 1125
+  },
+  {
+   "place": 246,
+   "name": "Christoph Maximilian SCHRICK",
+   "score": 1104
+  },
+  {
+   "place": 293,
+   "name": "Max DIETERICH",
+   "score": 1090
+  },
+  {
+   "place": 338,
+   "name": "Lasse FUNCK",
+   "score": 1078
+  },
+  {
+   "place": 347,
+   "name": "Moritz KLEESIEK",
+   "score": 1076
+  },
+  {
+   "place": 392,
+   "name": "Jens MERGENTHALER",
+   "score": 1065
+  },
+  {
+   "place": 414,
+   "name": "Sebastian HAUF",
+   "score": 1061
+  },
+  {
+   "place": 417,
+   "name": "Maximilian BERGER",
+   "score": 1060
+  },
+  {
+   "place": 432,
+   "name": "Tim KALIES",
+   "score": 1057
+  },
+  {
+   "place": 467,
+   "name": "Piet HOYER",
+   "score": 1047
+  },
+  {
+   "place": 487,
+   "name": "Yannick GRAF",
+   "score": 1042
+  }
+ ]
+}

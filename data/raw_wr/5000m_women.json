@@ -1,0 +1,85 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 95,
+   "name": "Vanessa MIKITENKO",
+   "score": 1147
+  },
+  {
+   "place": 98,
+   "name": "Lisa MERKEL",
+   "score": 1145
+  },
+  {
+   "place": 121,
+   "name": "Elena BURKARD",
+   "score": 1130
+  },
+  {
+   "place": 183,
+   "name": "Lotte MEYBERG",
+   "score": 1098
+  },
+  {
+   "place": 282,
+   "name": "Carolina SCHÄFER",
+   "score": 1069
+  },
+  {
+   "place": 283,
+   "name": "Svenja PINGPANK",
+   "score": 1069
+  },
+  {
+   "place": 287,
+   "name": "Jette BEERMANN",
+   "score": 1067
+  },
+  {
+   "place": 306,
+   "name": "Kiara NAHEN",
+   "score": 1063
+  },
+  {
+   "place": 321,
+   "name": "Hannah STEGENWALLNER",
+   "score": 1060
+  },
+  {
+   "place": 336,
+   "name": "Tsambika JÄGER",
+   "score": 1057
+  },
+  {
+   "place": 364,
+   "name": "Julia EHRLE",
+   "score": 1052
+  },
+  {
+   "place": 371,
+   "name": "Emily JUNGINGER",
+   "score": 1050
+  },
+  {
+   "place": 386,
+   "name": "Bianca BÖHNKE",
+   "score": 1048
+  },
+  {
+   "place": 404,
+   "name": "Pia SCHLATTMANN",
+   "score": 1044
+  },
+  {
+   "place": 410,
+   "name": "Antonia SCHIEL",
+   "score": 1043
+  },
+  {
+   "place": 427,
+   "name": "Sarah KÖCHER",
+   "score": 1040
+  }
+ ]
+}

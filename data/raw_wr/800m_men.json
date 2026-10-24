@@ -1,0 +1,65 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 45,
+   "name": "Alexander STEPANOV",
+   "score": 1232
+  },
+  {
+   "place": 82,
+   "name": "Malik SKUPIN-ALFA",
+   "score": 1191
+  },
+  {
+   "place": 157,
+   "name": "Adrian ENGSTLER",
+   "score": 1146
+  },
+  {
+   "place": 182,
+   "name": "Louis BUSCHBECK",
+   "score": 1138
+  },
+  {
+   "place": 232,
+   "name": "Rocco MARTIN",
+   "score": 1117
+  },
+  {
+   "place": 247,
+   "name": "Tom STÖBER",
+   "score": 1113
+  },
+  {
+   "place": 294,
+   "name": "Tim HOLZAPFEL",
+   "score": 1100
+  },
+  {
+   "place": 316,
+   "name": "Tim ANSTETT",
+   "score": 1093
+  },
+  {
+   "place": 323,
+   "name": "Hannes FAHL",
+   "score": 1091
+  },
+  {
+   "place": 377,
+   "name": "Felix WITTMANN",
+   "score": 1078
+  },
+  {
+   "place": 425,
+   "name": "Vincente GRAIANI",
+   "score": 1068
+  },
+  {
+   "place": 440,
+   "name": "Emil MEGGLE",
+   "score": 1065
+  }
+ ]
+}

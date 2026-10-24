@@ -1,0 +1,105 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 7,
+   "name": "Karl BEBENDORF",
+   "score": 1287
+  },
+  {
+   "place": 14,
+   "name": "Frederik RUPPERT",
+   "score": 1263
+  },
+  {
+   "place": 24,
+   "name": "Niklas BUCHHOLZ",
+   "score": 1224
+  },
+  {
+   "place": 65,
+   "name": "Robin MÜLLER",
+   "score": 1157
+  },
+  {
+   "place": 84,
+   "name": "Brian WEISHEIT",
+   "score": 1134
+  },
+  {
+   "place": 87,
+   "name": "Velten SCHNEIDER",
+   "score": 1131
+  },
+  {
+   "place": 95,
+   "name": "Silas ZAHLTEN",
+   "score": 1126
+  },
+  {
+   "place": 143,
+   "name": "Kurt LAUER",
+   "score": 1093
+  },
+  {
+   "place": 183,
+   "name": "Noah CAIS",
+   "score": 1074
+  },
+  {
+   "place": 200,
+   "name": "Nick JÄGER",
+   "score": 1063
+  },
+  {
+   "place": 236,
+   "name": "Karl GEBUREK",
+   "score": 1047
+  },
+  {
+   "place": 245,
+   "name": "Levin SAVEUR",
+   "score": 1045
+  },
+  {
+   "place": 284,
+   "name": "Henrik LINDSTROT",
+   "score": 1035
+  },
+  {
+   "place": 317,
+   "name": "Jan THEWES",
+   "score": 1026
+  },
+  {
+   "place": 330,
+   "name": "Felix LUDKA",
+   "score": 1023
+  },
+  {
+   "place": 332,
+   "name": "Til STEPHAN",
+   "score": 1023
+  },
+  {
+   "place": 350,
+   "name": "Jakob RÖDEL",
+   "score": 1018
+  },
+  {
+   "place": 360,
+   "name": "Paul WALOCHNY",
+   "score": 1015
+  },
+  {
+   "place": 389,
+   "name": "Marco VOGGENREITER",
+   "score": 1007
+  },
+  {
+   "place": 416,
+   "name": "Malte STOCKHAUSEN",
+   "score": 1001
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 43,
+   "name": "Lisa MERKEL",
+   "score": 1187
+  },
+  {
+   "place": 46,
+   "name": "Konstanze KLOSTERHALFEN",
+   "score": 1184
+  },
+  {
+   "place": 54,
+   "name": "Eva DIETERICH",
+   "score": 1178
+  },
+  {
+   "place": 59,
+   "name": "Elena BURKARD",
+   "score": 1175
+  },
+  {
+   "place": 73,
+   "name": "Blanka DÖRFEL",
+   "score": 1166
+  },
+  {
+   "place": 135,
+   "name": "Fabienne KÖNIGSTEIN",
+   "score": 1128
+  },
+  {
+   "place": 146,
+   "name": "Alina REH",
+   "score": 1125
+  },
+  {
+   "place": 193,
+   "name": "Kira WEIS",
+   "score": 1112
+  },
+  {
+   "place": 213,
+   "name": "Carolina SCHÄFER",
+   "score": 1107
+  },
+  {
+   "place": 216,
+   "name": "Pia SCHLATTMANN",
+   "score": 1106
+  },
+  {
+   "place": 222,
+   "name": "Mia JURENKA",
+   "score": 1104
+  },
+  {
+   "place": 240,
+   "name": "Kiara NAHEN",
+   "score": 1100
+  },
+  {
+   "place": 287,
+   "name": "Hannah STEGENWALLNER",
+   "score": 1087
+  },
+  {
+   "place": 327,
+   "name": "Lotte MEYBERG",
+   "score": 1073
+  },
+  {
+   "place": 332,
+   "name": "Nele HEYMANN",
+   "score": 1072
+  },
+  {
+   "place": 343,
+   "name": "Eva SCHULTZ",
+   "score": 1069
+  },
+  {
+   "place": 420,
+   "name": "Leah HANLE",
+   "score": 1052
+  },
+  {
+   "place": 435,
+   "name": "Jette BEERMANN",
+   "score": 1048
+  },
+  {
+   "place": 438,
+   "name": "Tabea THEMANN",
+   "score": 1047
+  }
+ ]
+}

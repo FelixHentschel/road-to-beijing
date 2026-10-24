@@ -1,0 +1,92 @@
+name: Road to Beijing – Quali-Liste
+
+on:
+  schedule:
+    - cron: "0 5 * * *"     # täglich 05:00 UTC; neu gebaut wird nur, wenn sich die offizielle Liste geändert hat
+  workflow_dispatch: {}      # manuell auslösbar
+  push:                      # jede Design- oder Code-Änderung geht automatisch live
+    branches: [main]
+    paths-ignore: ["data/**", "carousel/**", "README.md"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: roadto
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.data.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Browser für den Abruf installieren
+        run: |
+          pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+
+      - name: Offizielle Road-to-Listen abrufen und prüfen
+        run: python fetch_roadto.py
+      - name: World Ranking abrufen (nur Zusatzhinweis)
+        run: python fetch_worldranking.py
+      - id: data
+        name: Datensatz bauen
+        run: python build_data.py
+
+      - name: Carousel aus denselben Daten erzeugen
+        if: steps.data.outputs.changed == 'true' || github.event_name != 'schedule'
+        run: python gen_carousel.py
+
+      - uses: pnpm/action-setup@v4
+        if: steps.data.outputs.changed == 'true' || github.event_name != 'schedule'
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        if: steps.data.outputs.changed == 'true' || github.event_name != 'schedule'
+        with:
+          node-version: 22
+      - name: Seite bauen
+        if: steps.data.outputs.changed == 'true' || github.event_name != 'schedule'
+        working-directory: web
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm run bundle
+          mkdir -p ../site && cp bundle.html ../site/index.html
+      - name: Futura PT (Adobe Fonts) einbinden
+        if: (steps.data.outputs.changed == 'true' || github.event_name != 'schedule') && vars.TYPEKIT_ID != ''
+        env:
+          TYPEKIT_ID: ${{ vars.TYPEKIT_ID }}
+        run: sed -i "0,/<html lang=de>/s##<html lang=de><link rel=\"stylesheet\" href=\"https://use.typekit.net/${TYPEKIT_ID}.css\">#" site/index.html && grep -q "use.typekit.net/${TYPEKIT_ID}.css" site/index.html
+
+      - name: Daten und Carousel sichern
+        if: steps.data.outputs.changed == 'true'
+        run: |
+          git config user.name "auslaufen-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ carousel/
+          git diff --cached --quiet || git commit -m "Road to Beijing, Stand ${{ steps.data.outputs.stand }}"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.data.outputs.changed == 'true' || github.event_name != 'schedule'
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.changed == 'true' || github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

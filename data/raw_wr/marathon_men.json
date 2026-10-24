@@ -1,0 +1,55 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 15,
+   "name": "Amanal PETROS",
+   "score": 1312
+  },
+  {
+   "place": 90,
+   "name": "Samuel FITWI SIBHATU",
+   "score": 1214
+  },
+  {
+   "place": 94,
+   "name": "Richard RINGER",
+   "score": 1212
+  },
+  {
+   "place": 122,
+   "name": "Hendrik PFEIFFER",
+   "score": 1195
+  },
+  {
+   "place": 237,
+   "name": "Haftom WELDAY",
+   "score": 1161
+  },
+  {
+   "place": 305,
+   "name": "Davor Aaron BIENENFELD",
+   "score": 1147
+  },
+  {
+   "place": 421,
+   "name": "Johannes MOTSCHMANN",
+   "score": 1126
+  },
+  {
+   "place": 423,
+   "name": "Tom THURLEY",
+   "score": 1125
+  },
+  {
+   "place": 426,
+   "name": "Nils VOIGT",
+   "score": 1124
+  },
+  {
+   "place": 470,
+   "name": "Simon BOCH",
+   "score": 1114
+  }
+ ]
+}

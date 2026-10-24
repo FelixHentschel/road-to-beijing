@@ -1,0 +1,90 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 54,
+   "name": "Nele WEßEL",
+   "score": 1195
+  },
+  {
+   "place": 74,
+   "name": "Verena MEISL",
+   "score": 1172
+  },
+  {
+   "place": 122,
+   "name": "Jolanda KALLABIS",
+   "score": 1135
+  },
+  {
+   "place": 148,
+   "name": "Vera PETRYKOWSKI",
+   "score": 1123
+  },
+  {
+   "place": 192,
+   "name": "Adia BUDDE",
+   "score": 1101
+  },
+  {
+   "place": 211,
+   "name": "Lera MILLER",
+   "score": 1094
+  },
+  {
+   "place": 287,
+   "name": "Adeline HAISCH",
+   "score": 1070
+  },
+  {
+   "place": 288,
+   "name": "Emma LINDNER",
+   "score": 1069
+  },
+  {
+   "place": 302,
+   "name": "Rahel BRÖMMEL",
+   "score": 1064
+  },
+  {
+   "place": 306,
+   "name": "Hanna BRUCKMAYER",
+   "score": 1063
+  },
+  {
+   "place": 312,
+   "name": "Katja BÄUERLE",
+   "score": 1061
+  },
+  {
+   "place": 322,
+   "name": "Marie PRÖPSTING",
+   "score": 1060
+  },
+  {
+   "place": 347,
+   "name": "Franziska SCHINDLER",
+   "score": 1055
+  },
+  {
+   "place": 392,
+   "name": "Therese SCHUHENN",
+   "score": 1041
+  },
+  {
+   "place": 437,
+   "name": "Valerie KOPPLER",
+   "score": 1032
+  },
+  {
+   "place": 457,
+   "name": "Paula TERHORST",
+   "score": 1028
+  },
+  {
+   "place": 496,
+   "name": "Frieda BREITKOPF",
+   "score": 1022
+  }
+ ]
+}

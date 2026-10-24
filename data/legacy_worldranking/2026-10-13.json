@@ -1,0 +1,1440 @@
+{
+ "asOf": "13 Oct 2026",
+ "rules": "Status nach der Linie mit Nationen-Limit (max. 3 pro Land). Knapp dahinter: bis 25 % hinter der Linie. Für Deutsche gilt zusätzlich die DLV-Norm, die für 2027 noch nicht veröffentlicht ist.",
+ "germanInField": 22,
+ "events": [
+  {
+   "slug": "800m",
+   "label": "800 m",
+   "sex": "women",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 56,
+   "standard": "1:57,50",
+   "adjustedCut": 73,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 37,
+     "name": "Smilla KOLBE",
+     "dob": "01 MAR 2002",
+     "score": 1222,
+     "events": "800m",
+     "gap": 36,
+     "status": "in"
+    },
+    {
+     "place": 46,
+     "name": "Majtie KOLBERG",
+     "dob": "05 DEC 1999",
+     "score": 1216,
+     "events": "800m [800m sh]",
+     "gap": 27,
+     "status": "in"
+    },
+    {
+     "place": 85,
+     "name": "Jana Marie BECKER",
+     "dob": "11 MAY 2006",
+     "score": 1177,
+     "events": "800m",
+     "gap": -12,
+     "status": "near"
+    },
+    {
+     "place": 100,
+     "name": "Tanja SPILL",
+     "dob": "16 DEC 1995",
+     "score": 1165,
+     "events": "800m [800m sh]",
+     "gap": -27,
+     "status": "out"
+    },
+    {
+     "place": 153,
+     "name": "Jennie HAUKE",
+     "dob": "06 FEB 1993",
+     "score": 1134,
+     "events": "800m [800m sh]",
+     "gap": -80,
+     "status": "out"
+    },
+    {
+     "place": 155,
+     "name": "Lara TORTELL",
+     "dob": "07 APR 2001",
+     "score": 1133,
+     "events": "800m [800m sh,1000m]",
+     "gap": -82,
+     "status": "out"
+    },
+    {
+     "place": 197,
+     "name": "Hannah ODENDAHL",
+     "dob": "27 OCT 2005",
+     "score": 1118,
+     "events": "800m [800m sh]",
+     "gap": -124,
+     "status": "out"
+    },
+    {
+     "place": 208,
+     "name": "Natalie FÜLLGRAF",
+     "dob": "02 MAY 2001",
+     "score": 1108,
+     "events": "800m",
+     "gap": -135,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "USA",
+     "count": 10
+    },
+    {
+     "nat": "FRA",
+     "count": 5
+    },
+    {
+     "nat": "SUI",
+     "count": 4
+    },
+    {
+     "nat": "GBR",
+     "count": 4
+    },
+    {
+     "nat": "ETH",
+     "count": 3
+    },
+    {
+     "nat": "AUS",
+     "count": 3
+    },
+    {
+     "nat": "KEN",
+     "count": 2
+    },
+    {
+     "nat": "POL",
+     "count": 2
+    }
+   ],
+   "over3": 11
+  },
+  {
+   "slug": "800m",
+   "label": "800 m",
+   "sex": "men",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 56,
+   "standard": "1:43,00",
+   "adjustedCut": 70,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 45,
+     "name": "Alexander STEPANOV",
+     "dob": "30 SEP 2004",
+     "score": 1232,
+     "events": "800m [800m sh]",
+     "gap": 25,
+     "status": "in"
+    },
+    {
+     "place": 82,
+     "name": "Malik SKUPIN-ALFA",
+     "dob": "18 JUN 2004",
+     "score": 1191,
+     "events": "800m [800m sh]",
+     "gap": -12,
+     "status": "near"
+    },
+    {
+     "place": 157,
+     "name": "Adrian ENGSTLER",
+     "dob": "18 SEP 2002",
+     "score": 1146,
+     "events": "800m",
+     "gap": -87,
+     "status": "out"
+    },
+    {
+     "place": 182,
+     "name": "Louis BUSCHBECK",
+     "dob": "03 AUG 2005",
+     "score": 1138,
+     "events": "800m [800m sh]",
+     "gap": -112,
+     "status": "out"
+    },
+    {
+     "place": 232,
+     "name": "Rocco MARTIN",
+     "dob": "06 MAR 2001",
+     "score": 1117,
+     "events": "800m [800m sh]",
+     "gap": -162,
+     "status": "out"
+    },
+    {
+     "place": 247,
+     "name": "Tom STÖBER",
+     "dob": "20 OCT 2005",
+     "score": 1113,
+     "events": "800m [800m sh]",
+     "gap": -177,
+     "status": "out"
+    },
+    {
+     "place": 294,
+     "name": "Tim HOLZAPFEL",
+     "dob": "20 FEB 1997",
+     "score": 1100,
+     "events": "800m [800m sh]",
+     "gap": -224,
+     "status": "out"
+    },
+    {
+     "place": 316,
+     "name": "Tim ANSTETT",
+     "dob": "13 JAN 2005",
+     "score": 1093,
+     "events": "800m [800m sh]",
+     "gap": -246,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "KEN",
+     "count": 5
+    },
+    {
+     "nat": "USA",
+     "count": 5
+    },
+    {
+     "nat": "GBR",
+     "count": 5
+    },
+    {
+     "nat": "FRA",
+     "count": 5
+    },
+    {
+     "nat": "AUS",
+     "count": 4
+    },
+    {
+     "nat": "ALG",
+     "count": 3
+    },
+    {
+     "nat": "ESP",
+     "count": 3
+    },
+    {
+     "nat": "JAM",
+     "count": 3
+    }
+   ],
+   "over3": 9
+  },
+  {
+   "slug": "1500m",
+   "label": "1500 m",
+   "sex": "women",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 56,
+   "standard": "3:58,00",
+   "adjustedCut": 99,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 54,
+     "name": "Nele WEßEL",
+     "dob": "06 NOV 1999",
+     "score": 1195,
+     "events": "1500m [1500m sh]",
+     "gap": 45,
+     "status": "in"
+    },
+    {
+     "place": 74,
+     "name": "Verena MEISL",
+     "dob": "17 MAY 2001",
+     "score": 1172,
+     "events": "1500m",
+     "gap": 25,
+     "status": "in"
+    },
+    {
+     "place": 122,
+     "name": "Jolanda KALLABIS",
+     "dob": "18 FEB 2005",
+     "score": 1135,
+     "events": "1500m",
+     "gap": -23,
+     "status": "near"
+    },
+    {
+     "place": 148,
+     "name": "Vera PETRYKOWSKI",
+     "dob": "11 SEP 1995",
+     "score": 1123,
+     "events": "1500m [1500m sh]",
+     "gap": -49,
+     "status": "out"
+    },
+    {
+     "place": 192,
+     "name": "Adia BUDDE",
+     "dob": "29 JUL 2005",
+     "score": 1101,
+     "events": "1500m [1500m sh]",
+     "gap": -93,
+     "status": "out"
+    },
+    {
+     "place": 211,
+     "name": "Lera MILLER",
+     "dob": "20 MAR 2007",
+     "score": 1094,
+     "events": "1500m [1500m sh]",
+     "gap": -112,
+     "status": "out"
+    },
+    {
+     "place": 286,
+     "name": "Adeline HAISCH",
+     "dob": "08 APR 2000",
+     "score": 1070,
+     "events": "1500m [1500m sh]",
+     "gap": -187,
+     "status": "out"
+    },
+    {
+     "place": 287,
+     "name": "Emma LINDNER",
+     "dob": "15 MAY 2006",
+     "score": 1069,
+     "events": "1500m [Mile sh]",
+     "gap": -188,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "USA",
+     "count": 11
+    },
+    {
+     "nat": "GBR",
+     "count": 7
+    },
+    {
+     "nat": "ETH",
+     "count": 6
+    },
+    {
+     "nat": "AUS",
+     "count": 5
+    },
+    {
+     "nat": "ITA",
+     "count": 4
+    },
+    {
+     "nat": "KEN",
+     "count": 3
+    },
+    {
+     "nat": "FRA",
+     "count": 3
+    },
+    {
+     "nat": "POL",
+     "count": 2
+    }
+   ],
+   "over3": 18
+  },
+  {
+   "slug": "1500m",
+   "label": "1500 m",
+   "sex": "men",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 56,
+   "standard": "3:30,00",
+   "adjustedCut": 93,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 12,
+     "name": "Robert FARKEN",
+     "dob": "20 SEP 1997",
+     "score": 1310,
+     "events": "1500m [Mile,Mile Road]",
+     "gap": 81,
+     "status": "in"
+    },
+    {
+     "place": 83,
+     "name": "Marc TORTELL",
+     "dob": "26 DEC 1997",
+     "score": 1186,
+     "events": "1500m",
+     "gap": 10,
+     "status": "in"
+    },
+    {
+     "place": 122,
+     "name": "Marius PROBST",
+     "dob": "20 AUG 1995",
+     "score": 1159,
+     "events": "1500m [1500m sh]",
+     "gap": -29,
+     "status": "out"
+    },
+    {
+     "place": 139,
+     "name": "Tobias TENT",
+     "dob": "04 DEC 2005",
+     "score": 1147,
+     "events": "1500m [1500m sh]",
+     "gap": -46,
+     "status": "out"
+    },
+    {
+     "place": 154,
+     "name": "Benne C. ANDERSON",
+     "dob": "24 JUN 2004",
+     "score": 1139,
+     "events": "1500m",
+     "gap": -61,
+     "status": "out"
+    },
+    {
+     "place": 186,
+     "name": "Florian ZITTEL",
+     "dob": "10 MAR 2002",
+     "score": 1125,
+     "events": "1500m",
+     "gap": -93,
+     "status": "out"
+    },
+    {
+     "place": 246,
+     "name": "Christoph Maximilian SCHRICK",
+     "dob": "07 APR 2003",
+     "score": 1104,
+     "events": "1500m [1500m sh]",
+     "gap": -153,
+     "status": "out"
+    },
+    {
+     "place": 293,
+     "name": "Max DIETERICH",
+     "dob": "27 SEP 1999",
+     "score": 1090,
+     "events": "1500m",
+     "gap": -200,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "USA",
+     "count": 12
+    },
+    {
+     "nat": "FRA",
+     "count": 6
+    },
+    {
+     "nat": "AUS",
+     "count": 5
+    },
+    {
+     "nat": "KEN",
+     "count": 5
+    },
+    {
+     "nat": "GBR",
+     "count": 4
+    },
+    {
+     "nat": "ESP",
+     "count": 4
+    },
+    {
+     "nat": "BEL",
+     "count": 3
+    },
+    {
+     "nat": "POR",
+     "count": 2
+    }
+   ],
+   "over3": 18
+  },
+  {
+   "slug": "5000m",
+   "label": "5000 m",
+   "sex": "women",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 42,
+   "standard": "14:36,00",
+   "adjustedCut": 77,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 95,
+     "name": "Vanessa MIKITENKO",
+     "dob": "07 JUL 2005",
+     "score": 1147,
+     "events": "5000m [3000m sh]",
+     "gap": -18,
+     "status": "near"
+    },
+    {
+     "place": 98,
+     "name": "Lisa MERKEL",
+     "dob": "20 JAN 2003",
+     "score": 1145,
+     "events": "5000m [3000m]",
+     "gap": -21,
+     "status": "out"
+    },
+    {
+     "place": 121,
+     "name": "Elena BURKARD",
+     "dob": "10 FEB 1992",
+     "score": 1130,
+     "events": "5000m [3000m sh]",
+     "gap": -44,
+     "status": "out"
+    },
+    {
+     "place": 185,
+     "name": "Lotte MEYBERG",
+     "dob": "01 AUG 1997",
+     "score": 1098,
+     "events": "5000m [5 km Road]",
+     "gap": -108,
+     "status": "out"
+    },
+    {
+     "place": 285,
+     "name": "Carolina SCHÄFER",
+     "dob": "25 JUL 2004",
+     "score": 1069,
+     "events": "5000m [5 km Road]",
+     "gap": -208,
+     "status": "out"
+    },
+    {
+     "place": 286,
+     "name": "Svenja PINGPANK",
+     "dob": "30 OCT 1996",
+     "score": 1069,
+     "events": "5000m [3000m]",
+     "gap": -209,
+     "status": "out"
+    },
+    {
+     "place": 290,
+     "name": "Jette BEERMANN",
+     "dob": "02 JUL 2003",
+     "score": 1067,
+     "events": "5000m [3000m sh]",
+     "gap": -213,
+     "status": "out"
+    },
+    {
+     "place": 309,
+     "name": "Kiara NAHEN",
+     "dob": "25 MAY 2002",
+     "score": 1063,
+     "events": "5000m [3000m sh]",
+     "gap": -232,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "ETH",
+     "count": 12
+    },
+    {
+     "nat": "AUS",
+     "count": 6
+    },
+    {
+     "nat": "KEN",
+     "count": 5
+    },
+    {
+     "nat": "USA",
+     "count": 4
+    },
+    {
+     "nat": "NED",
+     "count": 2
+    },
+    {
+     "nat": "GBR",
+     "count": 2
+    },
+    {
+     "nat": "JPN",
+     "count": 2
+    },
+    {
+     "nat": "ITA",
+     "count": 1
+    }
+   ],
+   "over3": 15
+  },
+  {
+   "slug": "5000m",
+   "label": "5000 m",
+   "sex": "men",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 42,
+   "standard": "12:50,00",
+   "adjustedCut": 65,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 20,
+     "name": "Florian BREMM",
+     "dob": "14 AUG 2000",
+     "score": 1256,
+     "events": "5000m [3000m sh]",
+     "gap": 45,
+     "status": "in"
+    },
+    {
+     "place": 24,
+     "name": "Mohamed ABDILAAHI",
+     "dob": "24 MAR 1999",
+     "score": 1248,
+     "events": "5000m [3000m]",
+     "gap": 41,
+     "status": "in"
+    },
+    {
+     "place": 73,
+     "name": "Frederik RUPPERT",
+     "dob": "19 FEB 1997",
+     "score": 1160,
+     "events": "5000m [3000m sh]",
+     "gap": -8,
+     "status": "near"
+    },
+    {
+     "place": 208,
+     "name": "Theodor SCHUCHT",
+     "dob": "03 NOV 2003",
+     "score": 1094,
+     "events": "5000m [3000m sh]",
+     "gap": -143,
+     "status": "out"
+    },
+    {
+     "place": 403,
+     "name": "Maximilian THORWIRTH",
+     "dob": "09 JAN 1995",
+     "score": 1047,
+     "events": "5000m [3000m sh]",
+     "gap": -338,
+     "status": "out"
+    },
+    {
+     "place": 465,
+     "name": "Tristan KAUFHOLD",
+     "dob": "11 AUG 2006",
+     "score": 1034,
+     "events": "5000m [3000m]",
+     "gap": -400,
+     "status": "out"
+    },
+    {
+     "place": 481,
+     "name": "Jona BODIRSKY",
+     "dob": "11 APR 2001",
+     "score": 1030,
+     "events": "5000m [5 km Road]",
+     "gap": -416,
+     "status": "out"
+    },
+    {
+     "place": 491,
+     "name": "Maximilian BERGER",
+     "dob": "16 SEP 2002",
+     "score": 1028,
+     "events": "5000m [3000m sh]",
+     "gap": -426,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "USA",
+     "count": 7
+    },
+    {
+     "nat": "ETH",
+     "count": 6
+    },
+    {
+     "nat": "KEN",
+     "count": 6
+    },
+    {
+     "nat": "AUS",
+     "count": 3
+    },
+    {
+     "nat": "FRA",
+     "count": 3
+    },
+    {
+     "nat": "GER",
+     "count": 2
+    },
+    {
+     "nat": "ERI",
+     "count": 2
+    },
+    {
+     "nat": "BRN",
+     "count": 1
+    }
+   ],
+   "over3": 10
+  },
+  {
+   "slug": "10000m",
+   "label": "10.000 m",
+   "sex": "women",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 27,
+   "standard": "30:40,00",
+   "adjustedCut": 41,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 43,
+     "name": "Lisa MERKEL",
+     "dob": "20 JAN 2003",
+     "score": 1187,
+     "events": "10,000m [10km Road]",
+     "gap": -2,
+     "status": "near"
+    },
+    {
+     "place": 46,
+     "name": "Konstanze KLOSTERHALFEN",
+     "dob": "18 FEB 1997",
+     "score": 1184,
+     "events": "10,000m [10km Road]",
+     "gap": -5,
+     "status": "near"
+    },
+    {
+     "place": 54,
+     "name": "Eva DIETERICH",
+     "dob": "29 MAR 1999",
+     "score": 1178,
+     "events": "10,000m",
+     "gap": -13,
+     "status": "out"
+    },
+    {
+     "place": 59,
+     "name": "Elena BURKARD",
+     "dob": "10 FEB 1992",
+     "score": 1175,
+     "events": "10,000m [10km Road]",
+     "gap": -18,
+     "status": "out"
+    },
+    {
+     "place": 73,
+     "name": "Blanka DÖRFEL",
+     "dob": "24 APR 2002",
+     "score": 1166,
+     "events": "10,000m [10km Road]",
+     "gap": -32,
+     "status": "out"
+    },
+    {
+     "place": 135,
+     "name": "Fabienne KÖNIGSTEIN",
+     "dob": "25 NOV 1992",
+     "score": 1128,
+     "events": "10,000m [10km Road]",
+     "gap": -94,
+     "status": "out"
+    },
+    {
+     "place": 146,
+     "name": "Alina REH",
+     "dob": "23 MAY 1997",
+     "score": 1125,
+     "events": "10,000m [10km Road]",
+     "gap": -105,
+     "status": "out"
+    },
+    {
+     "place": 193,
+     "name": "Kira WEIS",
+     "dob": "16 MAR 2004",
+     "score": 1112,
+     "events": "10,000m",
+     "gap": -152,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "KEN",
+     "count": 9
+    },
+    {
+     "nat": "ETH",
+     "count": 6
+    },
+    {
+     "nat": "AUS",
+     "count": 2
+    },
+    {
+     "nat": "GBR",
+     "count": 2
+    },
+    {
+     "nat": "ITA",
+     "count": 1
+    },
+    {
+     "nat": "JPN",
+     "count": 1
+    },
+    {
+     "nat": "UGA",
+     "count": 1
+    },
+    {
+     "nat": "BEL",
+     "count": 1
+    }
+   ],
+   "over3": 9
+  },
+  {
+   "slug": "10000m",
+   "label": "10.000 m",
+   "sex": "men",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 27,
+   "standard": "26:48,00",
+   "adjustedCut": 52,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 8,
+     "name": "Mohamed ABDILAAHI",
+     "dob": "24 MAR 1999",
+     "score": 1232,
+     "events": "10,000m [10km Road]",
+     "gap": 44,
+     "status": "in"
+    },
+    {
+     "place": 94,
+     "name": "Nils VOIGT",
+     "dob": "02 MAY 1997",
+     "score": 1147,
+     "events": "10,000m [10km Road]",
+     "gap": -42,
+     "status": "out"
+    },
+    {
+     "place": 210,
+     "name": "Davor Aaron BIENENFELD",
+     "dob": "25 SEP 1997",
+     "score": 1110,
+     "events": "10,000m",
+     "gap": -158,
+     "status": "out"
+    },
+    {
+     "place": 256,
+     "name": "Johannes MOTSCHMANN",
+     "dob": "03 AUG 1994",
+     "score": 1097,
+     "events": "10,000m [10km Road]",
+     "gap": -204,
+     "status": "out"
+    },
+    {
+     "place": 326,
+     "name": "Jan Lukas BECKER",
+     "dob": "22 SEP 1993",
+     "score": 1083,
+     "events": "10,000m [10km Road]",
+     "gap": -274,
+     "status": "out"
+    },
+    {
+     "place": 345,
+     "name": "Tom FÖRSTER",
+     "dob": "02 FEB 2002",
+     "score": 1077,
+     "events": "10,000m [10km Road]",
+     "gap": -293,
+     "status": "out"
+    },
+    {
+     "place": 380,
+     "name": "Markus GÖRGER",
+     "dob": "12 JAN 1998",
+     "score": 1072,
+     "events": "10,000m [10km Road]",
+     "gap": -328,
+     "status": "out"
+    },
+    {
+     "place": 478,
+     "name": "Lukas EHRLE",
+     "dob": "07 NOV 2004",
+     "score": 1059,
+     "events": "10,000m",
+     "gap": -426,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "KEN",
+     "count": 11
+    },
+    {
+     "nat": "ETH",
+     "count": 5
+    },
+    {
+     "nat": "GBR",
+     "count": 2
+    },
+    {
+     "nat": "SWE",
+     "count": 1
+    },
+    {
+     "nat": "AUS",
+     "count": 1
+    },
+    {
+     "nat": "GER",
+     "count": 1
+    },
+    {
+     "nat": "FRA",
+     "count": 1
+    },
+    {
+     "nat": "JPN",
+     "count": 1
+    }
+   ],
+   "over3": 10
+  },
+  {
+   "slug": "3000msc",
+   "label": "3000 m Hindernis",
+   "sex": "women",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 36,
+   "standard": "9:06,50",
+   "adjustedCut": 48,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 7,
+     "name": "Gesa Felicitas KRAUSE",
+     "dob": "03 AUG 1992",
+     "score": 1307,
+     "events": "3000mSC",
+     "gap": 41,
+     "status": "in"
+    },
+    {
+     "place": 13,
+     "name": "Lea MEYER",
+     "dob": "16 SEP 1997",
+     "score": 1275,
+     "events": "3000mSC",
+     "gap": 35,
+     "status": "in"
+    },
+    {
+     "place": 15,
+     "name": "Olivia GÜRTH",
+     "dob": "31 MAY 2002",
+     "score": 1261,
+     "events": "3000mSC",
+     "gap": 33,
+     "status": "in"
+    },
+    {
+     "place": 57,
+     "name": "Adia BUDDE",
+     "dob": "29 JUL 2005",
+     "score": 1177,
+     "events": "3000mSC",
+     "gap": -9,
+     "status": "near"
+    },
+    {
+     "place": 81,
+     "name": "Jule Jutta LINDNER",
+     "dob": "15 MAY 2006",
+     "score": 1138,
+     "events": "3000mSC",
+     "gap": -33,
+     "status": "out"
+    },
+    {
+     "place": 91,
+     "name": "Carolin HINRICHS",
+     "dob": "26 JAN 2004",
+     "score": 1126,
+     "events": "3000mSC",
+     "gap": -43,
+     "status": "out"
+    },
+    {
+     "place": 104,
+     "name": "Constanze PAOLI",
+     "dob": "03 MAR 2003",
+     "score": 1119,
+     "events": "3000mSC",
+     "gap": -56,
+     "status": "out"
+    },
+    {
+     "place": 218,
+     "name": "Agnes Thurid GERS",
+     "dob": "04 AUG 1997",
+     "score": 1060,
+     "events": "3000mSC",
+     "gap": -170,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "USA",
+     "count": 10
+    },
+    {
+     "nat": "KEN",
+     "count": 3
+    },
+    {
+     "nat": "GER",
+     "count": 3
+    },
+    {
+     "nat": "ETH",
+     "count": 3
+    },
+    {
+     "nat": "FRA",
+     "count": 3
+    },
+    {
+     "nat": "TUN",
+     "count": 2
+    },
+    {
+     "nat": "IND",
+     "count": 2
+    },
+    {
+     "nat": "BRN",
+     "count": 1
+    }
+   ],
+   "over3": 7
+  },
+  {
+   "slug": "3000msc",
+   "label": "3000 m Hindernis",
+   "sex": "men",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 36,
+   "standard": "8:08,00",
+   "adjustedCut": 50,
+   "checkedTo": 500,
+   "athletes": [
+    {
+     "place": 7,
+     "name": "Karl BEBENDORF",
+     "dob": "07 MAY 1996",
+     "score": 1287,
+     "events": "3000mSC",
+     "gap": 43,
+     "status": "in"
+    },
+    {
+     "place": 14,
+     "name": "Frederik RUPPERT",
+     "dob": "19 FEB 1997",
+     "score": 1263,
+     "events": "3000mSC",
+     "gap": 36,
+     "status": "in"
+    },
+    {
+     "place": 24,
+     "name": "Niklas BUCHHOLZ",
+     "dob": "04 MAR 1998",
+     "score": 1224,
+     "events": "3000mSC",
+     "gap": 26,
+     "status": "in"
+    },
+    {
+     "place": 65,
+     "name": "Robin MÜLLER",
+     "dob": "12 JUN 2003",
+     "score": 1157,
+     "events": "3000mSC",
+     "gap": -15,
+     "status": "out"
+    },
+    {
+     "place": 84,
+     "name": "Brian WEISHEIT",
+     "dob": "07 NOV 1997",
+     "score": 1134,
+     "events": "3000mSC [2000mSC]",
+     "gap": -34,
+     "status": "out"
+    },
+    {
+     "place": 87,
+     "name": "Velten SCHNEIDER",
+     "dob": "21 AUG 1999",
+     "score": 1131,
+     "events": "3000mSC",
+     "gap": -37,
+     "status": "out"
+    },
+    {
+     "place": 95,
+     "name": "Silas ZAHLTEN",
+     "dob": "23 SEP 2004",
+     "score": 1126,
+     "events": "3000mSC",
+     "gap": -45,
+     "status": "out"
+    },
+    {
+     "place": 142,
+     "name": "Kurt LAUER",
+     "dob": "30 OCT 2003",
+     "score": 1093,
+     "events": "3000mSC",
+     "gap": -92,
+     "status": "out"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "USA",
+     "count": 7
+    },
+    {
+     "nat": "KEN",
+     "count": 5
+    },
+    {
+     "nat": "MAR",
+     "count": 4
+    },
+    {
+     "nat": "ETH",
+     "count": 3
+    },
+    {
+     "nat": "GER",
+     "count": 3
+    },
+    {
+     "nat": "JPN",
+     "count": 3
+    },
+    {
+     "nat": "FRA",
+     "count": 2
+    },
+    {
+     "nat": "CAN",
+     "count": 2
+    }
+   ],
+   "over3": 7
+  },
+  {
+   "slug": "marathon",
+   "label": "Marathon",
+   "sex": "women",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 100,
+   "standard": "2:23:20",
+   "adjustedCut": 511,
+   "checkedTo": 600,
+   "athletes": [
+    {
+     "place": 58,
+     "name": "Domenika MAYER",
+     "dob": "09 OCT 1990",
+     "score": 1225,
+     "events": "Marathon",
+     "gap": 453,
+     "status": "in"
+    },
+    {
+     "place": 68,
+     "name": "Fabienne KÖNIGSTEIN",
+     "dob": "25 NOV 1992",
+     "score": 1218,
+     "events": "Marathon",
+     "gap": 443,
+     "status": "in"
+    },
+    {
+     "place": 262,
+     "name": "Laura HOTTENROTT",
+     "dob": "14 MAY 1992",
+     "score": 1142,
+     "events": "Marathon",
+     "gap": 249,
+     "status": "in"
+    },
+    {
+     "place": 332,
+     "name": "Anna LANGERWISCH",
+     "dob": "2001",
+     "score": 1126,
+     "events": "Marathon [Half Marathon]",
+     "gap": 179,
+     "status": "in"
+    },
+    {
+     "place": 374,
+     "name": "Nina REUTER",
+     "dob": "06 FEB 1999",
+     "score": 1116,
+     "events": "Marathon",
+     "gap": 137,
+     "status": "in"
+    },
+    {
+     "place": 423,
+     "name": "Katharina SAATHOFF",
+     "dob": "13 DEC 2000",
+     "score": 1102,
+     "events": "Marathon",
+     "gap": 88,
+     "status": "in"
+    },
+    {
+     "place": 430,
+     "name": "Melina WOLF",
+     "dob": "21 DEC 1992",
+     "score": 1100,
+     "events": "Marathon [Half Marathon]",
+     "gap": 81,
+     "status": "in"
+    },
+    {
+     "place": 441,
+     "name": "Kristina HENDEL",
+     "dob": "13 MAY 1996",
+     "score": 1097,
+     "events": "Marathon",
+     "gap": 70,
+     "status": "in"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "ETH",
+     "count": 44
+    },
+    {
+     "nat": "KEN",
+     "count": 27
+    },
+    {
+     "nat": "USA",
+     "count": 7
+    },
+    {
+     "nat": "JPN",
+     "count": 3
+    },
+    {
+     "nat": "BRN",
+     "count": 3
+    },
+    {
+     "nat": "AUS",
+     "count": 2
+    },
+    {
+     "nat": "GER",
+     "count": 2
+    },
+    {
+     "nat": "GBR",
+     "count": 2
+    }
+   ],
+   "over3": 69
+  },
+  {
+   "slug": "marathon",
+   "label": "Marathon",
+   "sex": "men",
+   "asOf": "13 Oct 2026",
+   "fieldSize": 100,
+   "standard": "2:06:00",
+   "adjustedCut": 512,
+   "checkedTo": 600,
+   "athletes": [
+    {
+     "place": 14,
+     "name": "Amanal PETROS",
+     "dob": "17 MAY 1995",
+     "score": 1312,
+     "events": "Marathon",
+     "gap": 498,
+     "status": "in"
+    },
+    {
+     "place": 80,
+     "name": "Samuel FITWI SIBHATU",
+     "dob": "01 JAN 1996",
+     "score": 1214,
+     "events": "Marathon",
+     "gap": 432,
+     "status": "in"
+    },
+    {
+     "place": 84,
+     "name": "Richard RINGER",
+     "dob": "27 FEB 1989",
+     "score": 1212,
+     "events": "Marathon",
+     "gap": 428,
+     "status": "in"
+    },
+    {
+     "place": 114,
+     "name": "Hendrik PFEIFFER",
+     "dob": "18 MAR 1993",
+     "score": 1195,
+     "events": "Marathon",
+     "gap": 398,
+     "status": "in"
+    },
+    {
+     "place": 217,
+     "name": "Haftom WELDAY",
+     "dob": "13 MAR 1990",
+     "score": 1161,
+     "events": "Marathon",
+     "gap": 295,
+     "status": "in"
+    },
+    {
+     "place": 285,
+     "name": "Davor Aaron BIENENFELD",
+     "dob": "25 SEP 1997",
+     "score": 1147,
+     "events": "Marathon",
+     "gap": 227,
+     "status": "in"
+    },
+    {
+     "place": 398,
+     "name": "Johannes MOTSCHMANN",
+     "dob": "03 AUG 1994",
+     "score": 1126,
+     "events": "Marathon [Half Marathon]",
+     "gap": 114,
+     "status": "in"
+    },
+    {
+     "place": 400,
+     "name": "Tom THURLEY",
+     "dob": "13 SEP 1993",
+     "score": 1125,
+     "events": "Marathon",
+     "gap": 112,
+     "status": "in"
+    }
+   ],
+   "nations": [
+    {
+     "nat": "ETH",
+     "count": 33
+    },
+    {
+     "nat": "KEN",
+     "count": 31
+    },
+    {
+     "nat": "UGA",
+     "count": 4
+    },
+    {
+     "nat": "USA",
+     "count": 4
+    },
+    {
+     "nat": "GER",
+     "count": 3
+    },
+    {
+     "nat": "ITA",
+     "count": 3
+    },
+    {
+     "nat": "JPN",
+     "count": 3
+    },
+    {
+     "nat": "TAN",
+     "count": 2
+    }
+   ],
+   "over3": 60
+  }
+ ],
+ "builtAt": "2026-10-22T06:26Z",
+ "source": {
+  "rankings": "https://worldathletics.org/world-rankings",
+  "quali": "https://assets.aws.worldathletics.org/document/6a156f9f527e379c9a3c765f.pdf"
+ }
+}

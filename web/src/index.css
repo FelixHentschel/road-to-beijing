@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Auslaufen BI laut Moodboard: Schwarz #0a0a0a, Papier #f2f3f4, Rot #de1b1b (höchstens 5 % der Fläche).
+   Grau dunkel #565b61 für Kleintext auf Papier (6,2:1), Grau hell #9aa0a6 auf Schwarz (7,5:1), Linie #d4d7db.
+   Rot nur für große Schrift, Flächen und Weiß-auf-Rot. Eckig, Linien statt Karten, Futura PT überall. */
+@layer base {
+  :root {
+    --red: #de1b1b; --on-red: #ffffff;
+    --bg: #f2f3f4; --fg: #0a0a0a; --muted: #565b61; --line: #d4d7db; --surface: #ffffff; --sunk: #e6e8eb;
+    --night: #0a0a0a; --night-fg: #f2f3f4; --night-muted: #9aa0a6; --night-line: #2c2f33;
+    --background: 210 7% 95%; --foreground: 0 0% 4%;
+    --card: 0 0% 100%; --card-foreground: 0 0% 4%;
+    --popover: 0 0% 4%; --popover-foreground: 210 7% 95%;
+    --primary: 0 0% 4%; --primary-foreground: 210 7% 95%;
+    --secondary: 216 7% 91%; --secondary-foreground: 0 0% 4%;
+    --muted-foreground: 213 7% 36%; --accent: 216 7% 91%; --accent-foreground: 0 0% 4%;
+    --destructive: 0 78% 49%; --destructive-foreground: 0 0% 100%;
+    --border: 213 7% 84%; --input: 213 7% 84%; --ring: 0 78% 49%;
+    --radius: 0rem;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0a0a0a; --fg: #f2f3f4; --muted: #9aa0a6; --line: #2c2f33; --surface: #141517; --sunk: #1c1e21;
+      --background: 0 0% 4%; --foreground: 210 7% 95%; --card: 220 7% 8%; --card-foreground: 210 7% 95%;
+      --popover: 210 7% 95%; --popover-foreground: 0 0% 4%; --primary: 210 7% 95%; --primary-foreground: 0 0% 4%;
+      --secondary: 216 7% 12%; --secondary-foreground: 210 7% 95%; --muted-foreground: 213 6% 63%;
+      --accent: 216 7% 12%; --accent-foreground: 210 7% 95%; --border: 220 6% 19%; --input: 220 6% 19%;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0a0a0a; --fg: #f2f3f4; --muted: #9aa0a6; --line: #2c2f33; --surface: #141517; --sunk: #1c1e21;
+    --background: 0 0% 4%; --foreground: 210 7% 95%; --card: 220 7% 8%; --card-foreground: 210 7% 95%;
+    --popover: 210 7% 95%; --popover-foreground: 0 0% 4%; --primary: 210 7% 95%; --primary-foreground: 0 0% 4%;
+    --secondary: 216 7% 12%; --secondary-foreground: 210 7% 95%; --muted-foreground: 213 6% 63%;
+    --accent: 216 7% 12%; --accent-foreground: 210 7% 95%; --border: 220 6% 19%; --input: 220 6% 19%;
+    color-scheme: dark;
+  }
+  * { @apply border-border; }
+  html { scrollbar-color: var(--muted) var(--bg); accent-color: var(--red); }
+  body { background: var(--bg); color: var(--fg); font-family: futura-pt, 'Futura PT', Futura, Jost, sans-serif; font-size: 18px; line-height: 1.5; font-weight: 400; font-variant-numeric: tabular-nums; margin: 0; }
+  ::selection { background: var(--red); color: var(--on-red); }
+  a { text-decoration-color: var(--red); text-underline-offset: 4px; text-decoration-thickness: 2px; }
+  :focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
+  h1, h2, h3, h4 { text-wrap: balance; }
+}
+@layer components {
+  .wrap { width: 100%; max-width: 1240px; margin-inline: auto; padding-inline: max(16px, env(safe-area-inset-left, 0px)); }
+  @media (min-width: 768px) { .wrap { padding-inline: 40px; } }
+  .label { font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }
+  .night { background: var(--night); color: var(--night-fg); }
+  .night .label, .night .dim { color: var(--night-muted); }
+  .seg-other { background: #565b61; }
+  .hatch { background: repeating-linear-gradient(135deg, var(--fg) 0 2px, transparent 2px 6px); }
+  /* Startnummer: Feld mit rotem Band und vier Nadellöchern (Moodboard 06, Referenz 09) */
+  .bib { position: relative; background: #f2f3f4; color: #0a0a0a; border: 2px solid #0a0a0a; }
+  .bib::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 6px; background: var(--red); }
+  .bib-pins::after { content: ""; position: absolute; inset: 9px 5px 5px; pointer-events: none;
+    background:
+      radial-gradient(circle, #0a0a0a 2px, transparent 2.5px) left top / 5px 5px no-repeat,
+      radial-gradient(circle, #0a0a0a 2px, transparent 2.5px) right top / 5px 5px no-repeat,
+      radial-gradient(circle, #0a0a0a 2px, transparent 2.5px) left bottom / 5px 5px no-repeat,
+      radial-gradient(circle, #0a0a0a 2px, transparent 2.5px) right bottom / 5px 5px no-repeat; }
+  /* Bahnlinien: einziges Ornament, immer −24° */
+  .lanes { background-image: repeating-linear-gradient(-24deg, transparent 0 86px, rgba(242,243,244,.16) 86px 90px); }
+}
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: 0ms !important; animation-duration: 0ms !important; } }

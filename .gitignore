@@ -1,0 +1,6 @@
+site/
+__pycache__/
+web/node_modules/
+web/dist/
+web/.parcel-cache/
+web/bundle.html

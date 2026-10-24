@@ -1,0 +1,268 @@
+[
+ {
+  "nat": "GER",
+  "name": "Deutschland",
+  "verband": "DLV",
+  "stand": "offen",
+  "basis": "Budapest 2023, Struktur bestätigt 2026",
+  "quelle": "offiziell",
+  "meisterschaft": "DM Pflicht (außer 10.000 m und Marathon). Platz 1 und 2 mit WA-Norm werden zuerst nominiert. Über 10.000 m hat der DM-Sieger Vorrang.",
+  "normen": "Zusätzliche DLV-Leistungsbestätigungsnorm. Werte für 2027 noch nicht veröffentlicht.",
+  "ranking": "Nur mit DLV-Norm, nach Ermessen. Ohne DLV-Norm keine Meldung an World Athletics.",
+  "marathon": "Keine DM-Regel. WA-Norm im Zeitraum, mit dem Bundestrainer abgestimmter Jahresplan. 2026 zusätzlich Halbmarathon-Norm.",
+  "kurz": "Ranking-Platz allein reicht nicht",
+  "url": "https://www.leichtathletik.de/fileadmin/user_upload/003_Nationalmannschaften/01_Olympisch/05_Nominierung_Kaderbildung/Nominierungsrichtlinien/2023_DLV-Nominierungsrichtlinien.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "härter",
+   "ranking": "bedingt"
+  }
+ },
+ {
+  "nat": "JPN",
+  "name": "Japan",
+  "verband": "JAAF",
+  "stand": "2027",
+  "basis": "Beijing 2027, Juli 2026",
+  "quelle": "offiziell",
+  "meisterschaft": "Japan-Meister mit WA-Norm sofort nominiert (Osaka, Juni 2027). 10.000 m über eigene Meisterschaft im Dezember 2026.",
+  "normen": "WA-Normen. Wer über Umverteilung nachrückt, braucht eine japanische Untergrenze.",
+  "ranking": "Ja, aber hinter allen Normerfüllern.",
+  "marathon": "MGC-System: Fast Pass (2:03:59 / 2:16:59) und MGC-Seriensieger sofort, Rest nach schnellster Zeit.",
+  "kurz": "Der Meistertitel ist das Ticket",
+  "url": "https://www.jaaf.or.jp/files/upload/202607/27_172025.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "keine",
+   "ranking": "bedingt"
+  }
+ },
+ {
+  "nat": "GBR",
+  "name": "Großbritannien",
+  "verband": "UK Athletics",
+  "stand": "2027",
+  "basis": "Beijing 2027, Oktober 2026",
+  "quelle": "offiziell",
+  "meisterschaft": "British Championships Pflicht. Top 2 mit WA-Norm sind nominiert, Sonderregeln im 1500 m der Männer und 800 m der Frauen.",
+  "normen": "Keine härteren. Weichere Consideration Standards zählen nur zusammen mit einem Ranking-Platz.",
+  "ranking": "Ja, in einer späteren Auswahlrunde.",
+  "marathon": "London als Trial, Top 2 mit WA-Norm nominiert.",
+  "kurz": "Trials plus Auswahlrunden",
+  "url": "https://www.uka.org.uk/wp-content/uploads/2026/10/2027-World-Championships-Selection-Policy-TF-Updated-October-2026.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "weicher",
+   "ranking": "ja"
+  }
+ },
+ {
+  "nat": "CAN",
+  "name": "Kanada",
+  "verband": "Athletics Canada",
+  "stand": "2027",
+  "basis": "Beijing 2027, Juni 2026",
+  "quelle": "offiziell",
+  "meisterschaft": "Start bei den Canadian Championships Pflicht. Nur der Sieger mit WA-Qualifikation ist automatisch drin.",
+  "normen": "Keine zusätzlichen.",
+  "ranking": "Ja. Umverteilte Plätze nur innerhalb der WA-Fristen.",
+  "marathon": "Ermessen, höchstens zwei Plätze in der ersten Runde im Mai 2027.",
+  "kurz": "Panel nach erwarteter WM-Platzierung",
+  "url": "https://athletics.ca/wp-content/uploads/2026/06/Selection-Criteria-Beijing-27-June-24-2026-EN.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "keine",
+   "ranking": "ja"
+  }
+ },
+ {
+  "nat": "USA",
+  "name": "USA",
+  "verband": "USATF",
+  "stand": "2025",
+  "basis": "Tokio 2025, Sekundärquellen",
+  "quelle": "sekundär",
+  "meisterschaft": "US-Meisterschaften entscheiden: Top 3 mit Norm oder Ranking-Platz fahren.",
+  "normen": "Keine zusätzlichen.",
+  "ranking": "Zählt nur, wenn der Trials-Platz passt.",
+  "marathon": "Keine Trials. Auswahl über die Rangliste der WA-Qualifizierten.",
+  "kurz": "Das härteste Trials-Rennen der Welt",
+  "url": "https://www.usatf.org/programs/elite-athletes/team-usatf/athlete-selection-procedures",
+  "flags": {
+   "trials": "ja",
+   "normen": "keine",
+   "ranking": "bedingt"
+  }
+ },
+ {
+  "nat": "KEN",
+  "name": "Kenia",
+  "verband": "Athletics Kenya",
+  "stand": "2025",
+  "basis": "Tokio 2025, Presse",
+  "quelle": "presse",
+  "meisterschaft": "Trials Pflicht. Top 2 mit WA-Norm fahren, der dritte Platz wird frei vergeben.",
+  "normen": "Faktisch WA-Norm Pflicht.",
+  "ranking": "Ohne Norm keine Nominierung, auch mit Ranking-Platz.",
+  "marathon": "Verband benennt das Team. Viele Top-Läufer:innen bevorzugen Herbst-Majors.",
+  "kurz": "Trials-Sieg ohne Norm reicht nicht",
+  "url": "https://beta.nation.co.ke/kenya/sports/athletics/athletics-kenya-issues-guidelines-ahead-of-world-athletics-championships-trials-5117778",
+  "flags": {
+   "trials": "ja",
+   "normen": "keine",
+   "ranking": "nein"
+  }
+ },
+ {
+  "nat": "ETH",
+  "name": "Äthiopien",
+  "verband": "EAF",
+  "stand": "2025",
+  "basis": "Tokio 2025, Presse",
+  "quelle": "presse",
+  "meisterschaft": "Keine Trials. Der Verband entscheidet nach Saisonform.",
+  "normen": "Keine zusätzlichen.",
+  "ranking": "Teils ja, 2025 neun Athlet:innen über Ranking-Punkte.",
+  "marathon": "Benanntes Aufgebot, Trainingslager entscheidet über die finalen drei.",
+  "kurz": "Ermessen statt Regeln",
+  "url": "https://www.thereporterethiopia.com/34572/",
+  "flags": {
+   "trials": "nein",
+   "normen": "keine",
+   "ranking": "bedingt"
+  }
+ },
+ {
+  "nat": "AUS",
+  "name": "Australien",
+  "verband": "Athletics Australia",
+  "stand": "2025",
+  "basis": "Tokio 2025, 2027 angekündigt",
+  "quelle": "offiziell",
+  "meisterschaft": "Meisterschaften Pflicht (Sydney, April 2027). Top 2 mit Norm für die frühe Nominierung.",
+  "normen": "Keine zusätzlichen. Einige WA-Wege (z. B. Label-Marathons) werden nicht anerkannt.",
+  "ranking": "Nur in der Ermessensphase.",
+  "marathon": "Komplett Ermessen, Entscheidung Anfang Mai.",
+  "kurz": "Früh nominiert wird, wer im April liefert",
+  "url": "https://www.athletics.com.au/wp-content/uploads/2025/05/Australian-Athletics-Selection-Policy-World-Championships-2025-2025-06-12-Published-17-Jun.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "keine",
+   "ranking": "bedingt"
+  }
+ },
+ {
+  "nat": "FRA",
+  "name": "Frankreich",
+  "verband": "FFA",
+  "stand": "2025",
+  "basis": "Tokio 2025",
+  "quelle": "offiziell",
+  "meisterschaft": "Französische Meisterschaften Pflicht (außer 10.000 m und Marathon). Top 2 mit FFA-Norm haben Vorrang.",
+  "normen": "Deutlich härter als WA, z. B. 1500 m 3:32,09 / 3:59,37.",
+  "ranking": "Nur, wenn sonst keine drei zusammenkommen, und mit Welt-Top-16-Niveau.",
+  "marathon": "WA-Qualifikation plus FFA-Norm (2:05:18 / 2:21:13), Formnachweis im Sommer.",
+  "kurz": "Strengste eigene Normen",
+  "url": "https://www.athle.fr/pdf/edf/modalites2025/CM-TOKYO.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "härter",
+   "ranking": "bedingt"
+  }
+ },
+ {
+  "nat": "ESP",
+  "name": "Spanien",
+  "verband": "RFEA",
+  "stand": "2027 Marathon",
+  "basis": "Marathon Beijing 2027, Bahn Tokio 2025",
+  "quelle": "offiziell",
+  "meisterschaft": "Meisterschaften Pflicht. Bester Spanier mit Norm direkt, zwei Plätze nach Ermessen.",
+  "normen": "Eigene RFEA-Normen oder Welt-Top-20 (drei pro Nation).",
+  "ranking": "Nur ausnahmsweise.",
+  "marathon": "Direkter Platz für Top 8 bei der EM 2026, zwei Plätze Ermessen.",
+  "kurz": "Ranking-Einladungen nur ausnahmsweise",
+  "url": "https://atletismorfea.es/sites/default/files/2026-06/113-2026%20Criterios%20espec%C3%ADficos%20de%20preselecci%C3%B3n%20para%20el%20Campeonato%20del%20Mundo%20de%20Aire%20Libre%202027_Marat%C3%B3n%20y%20Marcha%20-%20Pek%C3%ADn%20%28China%29.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "härter",
+   "ranking": "nein"
+  }
+ },
+ {
+  "nat": "ITA",
+  "name": "Italien",
+  "verband": "FIDAL",
+  "stand": "2025",
+  "basis": "Tokio 2025",
+  "quelle": "offiziell",
+  "meisterschaft": "Nicht Pflicht. Der Titel ist erster Tiebreaker bei mehr als drei Qualifizierten.",
+  "normen": "Weichere FIDAL-Normen, nur für die automatische Annahme von Ranking-Einladungen.",
+  "ranking": "Mit FIDAL-Norm oder Meistertitel automatisch, sonst Einzelfall.",
+  "marathon": "Ranking-Einladung mit FIDAL-Norm (2:10:00 / 2:30:00) automatisch.",
+  "kurz": "Meistertitel öffnet die Ranking-Tür",
+  "url": "https://www.fidal.it/upload/files/Tecnico/2025/CRITERI_TOKYO_2025_FINALE.pdf",
+  "flags": {
+   "trials": "nein",
+   "normen": "weicher",
+   "ranking": "bedingt"
+  }
+ },
+ {
+  "nat": "NED",
+  "name": "Niederlande",
+  "verband": "Atletiekunie",
+  "stand": "2025",
+  "basis": "Tokio 2025",
+  "quelle": "offiziell",
+  "meisterschaft": "NK-Teilnahme Pflicht.",
+  "normen": "2025 ausdrücklich keine zusätzlichen.",
+  "ranking": "Ja. Bei mehr als drei zählt zuerst die Saisonbestenliste.",
+  "marathon": "Kein eigenes Verfahren.",
+  "kurz": "Nah an der WA-Logik",
+  "url": "https://hardloopnieuws.nl/wp-content/uploads/2024/12/Kwalificatie-eisen-en-procedures-internationale-atletiekevenementen-2025-DEF.pdf",
+  "flags": {
+   "trials": "ja",
+   "normen": "keine",
+   "ranking": "ja"
+  }
+ },
+ {
+  "nat": "UGA",
+  "name": "Uganda",
+  "verband": "UAF",
+  "stand": "2025",
+  "basis": "Tokio 2025, Presse",
+  "quelle": "presse",
+  "meisterschaft": "Keine Pflicht-Trials. Meisterschaften als letzte Chance auf Ranking-Punkte.",
+  "normen": "Keine zusätzlichen.",
+  "ranking": "Ja, faktisch fährt, wer WA-qualifiziert ist.",
+  "marathon": "Benanntes Aufgebot nach Norm und Ranking.",
+  "kurz": "Wer qualifiziert ist, fährt",
+  "url": "https://nbssport.co.ug/2025/07/16/ugandas-best-gear-up-for-final-push-to-tokyo-2025/",
+  "flags": {
+   "trials": "nein",
+   "normen": "keine",
+   "ranking": "ja"
+  }
+ },
+ {
+  "nat": "MAR",
+  "name": "Marokko",
+  "verband": "FRMA",
+  "stand": "2025",
+  "basis": "Tokio 2025, Presse",
+  "quelle": "presse",
+  "meisterschaft": "Keine Trials.",
+  "normen": "Keine zusätzlichen.",
+  "ranking": "Ja, mehrere Marathonis 2025 über das Ranking.",
+  "marathon": "Team nach WA-Qualifikation.",
+  "kurz": "Folgt der WA-Liste",
+  "url": "https://lematin.ma/sports/le-maroc-sera-represente-par-30-athletes-aux-mondiaux-dathletisme-2025/299617",
+  "flags": {
+   "trials": "nein",
+   "normen": "keine",
+   "ranking": "ja"
+  }
+ }
+]

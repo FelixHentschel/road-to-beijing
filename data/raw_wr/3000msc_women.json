@@ -1,0 +1,110 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 7,
+   "name": "Gesa Felicitas KRAUSE",
+   "score": 1307
+  },
+  {
+   "place": 13,
+   "name": "Lea MEYER",
+   "score": 1275
+  },
+  {
+   "place": 15,
+   "name": "Olivia GÜRTH",
+   "score": 1261
+  },
+  {
+   "place": 57,
+   "name": "Adia BUDDE",
+   "score": 1177
+  },
+  {
+   "place": 81,
+   "name": "Jule Jutta LINDNER",
+   "score": 1138
+  },
+  {
+   "place": 91,
+   "name": "Carolin HINRICHS",
+   "score": 1126
+  },
+  {
+   "place": 104,
+   "name": "Constanze PAOLI",
+   "score": 1119
+  },
+  {
+   "place": 218,
+   "name": "Agnes Thurid GERS",
+   "score": 1060
+  },
+  {
+   "place": 235,
+   "name": "Frida GIERSDORFF",
+   "score": 1056
+  },
+  {
+   "place": 248,
+   "name": "Lena ROSSMANITH",
+   "score": 1051
+  },
+  {
+   "place": 252,
+   "name": "Leah HANLE",
+   "score": 1048
+  },
+  {
+   "place": 271,
+   "name": "Johanna EBERT",
+   "score": 1042
+  },
+  {
+   "place": 347,
+   "name": "Lisa SCHUSTER",
+   "score": 1021
+  },
+  {
+   "place": 349,
+   "name": "Linda GRUNDMANN",
+   "score": 1021
+  },
+  {
+   "place": 355,
+   "name": "Annika BUSER",
+   "score": 1020
+  },
+  {
+   "place": 375,
+   "name": "Neele HEYNE",
+   "score": 1016
+  },
+  {
+   "place": 410,
+   "name": "Lya BOURGUND",
+   "score": 1006
+  },
+  {
+   "place": 423,
+   "name": "Flora GRUNDMANN",
+   "score": 1003
+  },
+  {
+   "place": 424,
+   "name": "Hannah LÖSEL",
+   "score": 1003
+  },
+  {
+   "place": 436,
+   "name": "Maren GUTHIER",
+   "score": 1000
+  },
+  {
+   "place": 499,
+   "name": "Sophie GREBNER",
+   "score": 983
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+<title>Auslaufen Road to Beijing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+__FONTS__
+<style>
+/* Layout: Kopf mit Startplatz-Matrix (12 Rennen x 3 Plätze) | Disziplin im Fokus auf einer echten Laufbahn in Auslaufen-Rot | Startliste | Nationen als Einheitendiagramm + Regelkarte + Vergleich */
+:root{
+  --red:#de1b1b; --on-red:#ffffff; --red-ink:#b5121b;
+  --bg:#f2f3f4; --fg:#0a0a0a; --muted:#565b61; --line:#d4d7db; --surface:#ffffff; --sunk:#e6e8eb;
+  --ok:#17703f; --near:#a35f00; --out:#7c8187; --no:#b5121b;
+  --display:"Futura","Jost","Century Gothic",sans-serif;
+  --body:"Jost","Futura",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--red-ink:#ff5a4f;--bg:#0b0b0c;--fg:#f2f3f4;--muted:#a1a6ac;--line:#2b2d31;--surface:#151618;--sunk:#1f2124;--ok:#45c27a;--near:#f2a640;--out:#80868c;--no:#ff6b5e;color-scheme:dark}}
+:root[data-theme="dark"]{--red-ink:#ff5a4f;--bg:#0b0b0c;--fg:#f2f3f4;--muted:#a1a6ac;--line:#2b2d31;--surface:#151618;--sunk:#1f2124;--ok:#45c27a;--near:#f2a640;--out:#80868c;--no:#ff6b5e;color-scheme:dark}
+*{box-sizing:border-box}
+html{scrollbar-color:var(--muted) var(--bg);accent-color:var(--red)}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.5;margin:0;font-variant-numeric:tabular-nums}
+::selection{background:var(--red);color:var(--on-red)}
+a{color:inherit;text-decoration-color:var(--red);text-underline-offset:3px;text-decoration-thickness:2px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+
+/* Kopf */
+.head{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:40px;align-items:end;padding-bottom:36px;border-bottom:3px solid var(--fg)}
+@media (max-width:860px){.head{grid-template-columns:1fr;gap:28px}}
+.brand{font-family:var(--display);font-weight:800;font-style:italic;color:var(--red-ink);font-size:16px;letter-spacing:.12em;text-transform:uppercase}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(44px,8.4vw,96px);line-height:.9;margin:10px 0 18px;letter-spacing:-.02em;text-transform:uppercase}
+h1 em{font-style:normal;color:var(--red)}
+.lede{max-width:46ch;color:var(--muted);margin:0;font-size:18px}
+.asof{margin-top:16px;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.matrix-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:10px}
+.matrix-head h2{font-family:var(--display);font-size:20px;font-weight:700;margin:0}
+.matrix-head span{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.slots{display:grid;grid-template-columns:auto repeat(2,minmax(0,1fr));gap:4px 10px;align-items:center}
+.slots .sx{font-family:var(--mono);font-size:12px;color:var(--muted);padding-bottom:2px}
+.slots .ev{font-weight:600;font-size:15px;white-space:nowrap;padding-right:6px}
+.slot{display:flex;gap:4px;padding:6px;border:1.5px solid transparent;background:transparent;cursor:pointer;justify-content:flex-start}
+.slot:hover{border-color:var(--line)}
+.slot[aria-current="true"]{border-color:var(--fg)}
+.sq{width:100%;max-width:44px;height:22px;border:2px solid var(--fg)}
+.sq.in{background:var(--red);border-color:var(--red)}
+.sq.near{background:repeating-linear-gradient(135deg,var(--fg) 0 2px,transparent 2px 6px)}
+.sq.out{border-color:var(--line)}
+.key{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:12px;font-size:13px;color:var(--muted)}
+.key span{display:inline-flex;align-items:center;gap:6px}
+.key .sq{width:18px;height:12px;border-width:1.5px}
+
+/* Fokus */
+.focus{margin-top:44px}
+.pick{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;align-items:center;margin-bottom:26px}
+.tabs{display:flex;flex-wrap:wrap;gap:4px 18px}
+.tab{background:none;border:0;padding:4px 0;cursor:pointer;font-family:var(--display);font-weight:700;font-size:clamp(18px,2.4vw,24px);color:var(--muted);border-bottom:3px solid transparent;min-height:44px}
+.tab:hover{color:var(--fg)}
+.tab[aria-pressed="true"]{color:var(--fg);border-bottom-color:var(--red)}
+.seg{display:inline-flex;border:2px solid var(--fg)}
+.seg button{background:transparent;border:0;padding:8px 16px;cursor:pointer;font-weight:500;min-height:44px}
+.seg button+button{border-left:2px solid var(--fg)}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.ev-row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px 32px;margin-bottom:8px}
+.ev-title{font-family:var(--display);font-weight:800;font-size:clamp(34px,6vw,60px);text-transform:uppercase;margin:0;line-height:.95;letter-spacing:-.01em}
+.facts{display:flex;flex-wrap:wrap;gap:6px 26px}
+.fact{display:flex;flex-direction:column}
+.fact span{font-size:13px;color:var(--muted)}
+.fact b{font-family:var(--mono);font-weight:700;font-size:18px}
+
+/* Laufbahn */
+.lane-box{position:relative;margin-top:22px;padding-top:96px}
+.lane{position:relative;height:58px;background:var(--red);background-image:linear-gradient(var(--on-red),var(--on-red)),linear-gradient(var(--on-red),var(--on-red));background-size:100% 2px,100% 2px;background-position:0 6px,0 calc(100% - 6px);background-repeat:no-repeat}
+.lane .zone{position:absolute;top:0;bottom:0;left:0;background:rgba(0,0,0,.18)}
+.mark{position:absolute;top:-8px;bottom:-26px;width:0;border-left:3px solid var(--fg)}
+.mark.adj{border-left:3px dashed var(--fg)}
+.mark small{position:absolute;top:100%;left:6px;white-space:nowrap;font-family:var(--mono);font-size:12px;color:var(--fg);margin-top:2px}
+.mark.end small{left:auto;right:6px}
+.bib{position:absolute;bottom:58px;width:0;transition:left .8s var(--ease);display:flex;flex-direction:column;align-items:center;pointer-events:none}
+.bib>*{flex:none}
+.bib .tag{transform:translateX(0)}
+.bib.l .tag{align-self:flex-start;transform:translateX(-14px)}
+.bib.r .tag{align-self:flex-end;transform:translateX(14px)}
+.bib .tag{background:var(--surface);border:2px solid var(--fg);padding:2px 8px;font-size:13px;font-weight:600;white-space:nowrap;line-height:1.3}
+.bib .tag b{font-family:var(--mono);margin-right:6px}
+.bib .stem{width:2px;background:var(--fg)}
+.bib .dot{width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--fg);margin-bottom:-7px}
+.bib.minor .dot{width:10px;height:10px;border-width:2px;margin-bottom:-5px;background:var(--fg)}
+.scale{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:62px}
+@media (prefers-reduced-motion:reduce){.bib{transition:none}}
+
+/* Startliste */
+.start{margin-top:30px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.62fr);gap:36px}
+@media (max-width:860px){.start{grid-template-columns:1fr}}
+.list{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+.row:first-child{border-top:2px solid var(--fg)}
+.place{font-family:var(--display);font-weight:800;font-size:34px;line-height:1}
+.who{min-width:0}
+.who strong{display:block;font-size:19px;font-weight:600;line-height:1.2}
+.who small{display:block;color:var(--muted);font-size:14px}
+.st{text-align:right}
+.st .pill{display:inline-block;font-family:var(--mono);font-size:12px;font-weight:700;padding:3px 8px;border:2px solid currentColor;text-transform:uppercase;white-space:nowrap}
+.st small{display:block;font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:4px}
+.in{color:var(--ok)}.near{color:var(--near)}.out{color:var(--out)}.no{color:var(--no)}
+details.more{margin-top:12px}
+details.more summary{cursor:pointer;font-weight:600;padding:8px 0;color:var(--muted)}
+details.more .row{opacity:.8}
+.empty{padding:20px 0;color:var(--muted)}
+.howto{font-size:15px;color:var(--muted);display:flex;flex-direction:column;gap:12px}
+.howto p{margin:0}
+.howto strong{color:var(--fg)}
+.howto .dlv{background:var(--surface);border:1px solid var(--line);padding:14px 16px;color:var(--fg)}
+
+/* Nationen */
+.sec{margin-top:72px;border-top:3px solid var(--fg);padding-top:28px}
+.sec h2{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(30px,5vw,48px);line-height:.95;margin:0 0 12px;letter-spacing:-.01em}
+.sec .intro{max-width:62ch;color:var(--muted);margin:0 0 30px}
+.nat-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:36px;align-items:start}
+@media (max-width:860px){.nat-grid{grid-template-columns:1fr}}
+.units h3,.cmp h3{font-family:var(--display);font-size:20px;font-weight:700;margin:0 0 4px}
+.units .sub{font-size:14px;color:var(--muted);margin:0 0 14px}
+.urow{display:grid;grid-template-columns:48px minmax(0,1fr) 28px;gap:10px;align-items:center;width:100%;background:none;border:0;padding:6px 4px;text-align:left;cursor:pointer;border-left:3px solid transparent}
+.urow:disabled{cursor:default}
+.urow:not(:disabled):hover{background:var(--sunk)}
+.urow[aria-pressed="true"]{border-left-color:var(--red);background:var(--sunk)}
+.urow .code{font-family:var(--mono);font-weight:700;font-size:14px}
+.urow .cells{display:flex;flex-wrap:wrap;gap:3px}
+.urow .c{width:11px;height:11px;background:var(--fg)}
+.urow .c.x{background:var(--red)}
+.urow .n{font-family:var(--mono);font-size:13px;text-align:right;color:var(--muted)}
+.ukey{display:flex;gap:16px;font-size:13px;color:var(--muted);margin-top:12px}
+.ukey span{display:inline-flex;align-items:center;gap:6px}
+.ukey i{width:11px;height:11px;background:var(--fg);display:inline-block}
+.ukey i.x{background:var(--red)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.chip{font-family:var(--mono);font-size:13px;font-weight:700;border:2px solid var(--line);background:var(--surface);padding:6px 10px;cursor:pointer;min-height:40px}
+.chip:hover{border-color:var(--fg)}
+.chip[aria-pressed="true"]{border-color:var(--fg);background:var(--fg);color:var(--bg)}
+.card{background:var(--surface);border:2px solid var(--fg);padding:24px}
+.card .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;align-items:baseline}
+.card h4{font-family:var(--display);font-weight:800;font-size:32px;text-transform:uppercase;margin:0;line-height:1}
+.card .verband{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.card .kurz{font-family:var(--display);font-size:22px;font-weight:700;margin:14px 0 18px;color:var(--red-ink);line-height:1.2}
+.card dl{display:grid;grid-template-columns:140px minmax(0,1fr);gap:12px 16px;margin:0}
+.card dt{font-weight:600;font-size:14px;color:var(--muted)}
+.card dd{margin:0;font-size:16px}
+.card .meta{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:20px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+@media (max-width:520px){.card dl{grid-template-columns:1fr;gap:2px}.card dd{margin-bottom:10px}}
+.cmp{margin-top:44px}
+.tbl{overflow-x:auto;margin-top:12px}
+table{border-collapse:collapse;width:100%;min-width:620px}
+th,td{text-align:left;padding:10px 12px;font-size:15px}
+thead th{font-size:13px;font-weight:600;color:var(--muted);border-bottom:2px solid var(--fg)}
+tbody tr+tr td{border-top:1px solid var(--line)}
+tbody tr.sel td{background:var(--sunk)}
+td .rowbtn{background:none;border:0;padding:0;cursor:pointer;font-weight:600;text-align:left;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+td .rowbtn:hover{text-decoration-color:var(--red)}
+.v{font-family:var(--mono);font-size:12px;font-weight:700;padding:2px 7px;border:2px solid currentColor;text-transform:uppercase}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+</style>
+
+<div class="wrap">
+  <header class="head">
+    <div>
+      <div class="brand">Auslaufen Podcast</div>
+      <h1>Road to <em>Beijing</em> 27</h1>
+      <p class="lede">Wer von den deutschen Läufer:innen wäre mit dem aktuellen World Ranking bei der WM dabei? Von 800 m bis Marathon, jede Woche neu.</p>
+      <div class="asof" id="asof"></div>
+    </div>
+    <div>
+      <div class="matrix-head"><h2>Deutsche Startplätze</h2><span id="tot"></span></div>
+      <div class="slots" id="slots"></div>
+      <div class="key"><span><i class="sq in"></i>im Feld</span><span><i class="sq near"></i>knapp dahinter</span><span><i class="sq out"></i>außerhalb</span></div>
+    </div>
+  </header>
+
+  <section class="focus" aria-labelledby="t">
+    <div class="pick">
+      <div class="tabs" id="ev" role="group" aria-label="Disziplin"></div>
+      <div class="seg" id="sx" role="group" aria-label="Geschlecht"></div>
+    </div>
+    <div class="ev-row">
+      <h2 class="ev-title" id="t"></h2>
+      <div class="facts" id="facts"></div>
+    </div>
+    <div class="lane-box" id="lanebox" role="img">
+      <div class="lane" id="lane"></div>
+    </div>
+    <div class="scale"><span>Platz 1</span><span id="scalemax"></span></div>
+
+    <div class="start">
+      <div>
+        <div class="list" id="list" aria-live="polite"></div>
+        <details class="more" id="more"><summary id="more-s"></summary><div class="list" id="list2"></div></details>
+      </div>
+      <div class="howto">
+        <p><strong>Durchgezogene Linie:</strong> so viele Plätze hat das WM-Feld laut Qualifikationssystem.</p>
+        <p><strong>Gestrichelte Linie:</strong> pro Land starten höchstens drei. Wer dahinter steht, rückt nach. So weit reicht das Feld wirklich.</p>
+        <p class="dlv"><strong>Für Deutsche gilt eine dritte Hürde.</strong> Der DLV verlangt zusätzlich eine eigene Leistungsnorm und meist die Teilnahme an der DM. Die Werte für 2027 sind noch nicht veröffentlicht.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="nat-h">
+    <h2 id="nat-h">Wie nominieren die anderen?</h2>
+    <p class="intro">Jede Nation füllt ihre drei Plätze nach eigenen Regeln: Trials, strengere Normen oder freies Ermessen. Wer ein Ranking-Ticket nicht annimmt, macht den Platz für die Nächsten frei.</p>
+    <div class="nat-grid">
+      <div class="units">
+        <h3 id="units-h"></h3>
+        <p class="sub" id="units-sub"></p>
+        <div id="units"></div>
+        <div class="ukey"><span><i></i>startet</span><span><i class="x"></i>über dem Limit, rückt nach</span></div>
+      </div>
+      <div>
+        <div class="chips" id="chips" role="group" aria-label="Nation wählen"></div>
+        <div class="card" id="card" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="cmp">
+      <h3>Alle Regeln im Vergleich</h3>
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Nation</th><th>Meisterschaft Pflicht</th><th>Eigene Normen</th><th>Ranking-Tickets</th><th>Stand der Regeln</th></tr></thead>
+          <tbody id="matrix"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Daten: <a href="https://worldathletics.org/world-rankings" target="_blank" rel="noopener">World Athletics World Rankings</a>. Feldgrößen und Normen: <a href="https://assets.aws.worldathletics.org/document/6a156f9f527e379c9a3c765f.pdf" target="_blank" rel="noopener">Qualifikationssystem Beijing 27</a>.</span>
+    <span>Nominierungsregeln aus Verbandsdokumenten. Für Kenia, Äthiopien, Uganda und Marokko aus Presseberichten, für die USA aus Sekundärquellen.</span>
+    <span>Ein Projekt des <a href="https://auslaufen-podcast.de">Auslaufen Podcasts</a>. Alle Angaben ohne Gewähr, die Nominierung entscheiden die Verbände.</span>
+    <span><a href="https://auslaufen-podcast.de/policies/legal-notice">Impressum</a> &nbsp; <a href="https://auslaufen-podcast.de/policies/privacy-policy">Datenschutz</a></span>
+  </footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+const NATIONS = __NATIONS__;
+const SEX = {women:"Frauen",men:"Männer"};
+const STATUS = {in:"Im Feld",near:"Knapp dahinter",out:"Außerhalb"};
+const SRC = {offiziell:"Offizielles Dokument",sekundär:"Sekundärquellen",presse:"Presseberichte"};
+const VCLS = {ja:"in",bedingt:"near",nein:"no",härter:"no",weicher:"near",keine:"out"};
+const NAT = Object.fromEntries(NATIONS.map(n=>[n.nat,n]));
+const $ = id=>document.getElementById(id);
+const esc = s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nm = n=>n.split(" ").map(w=>w===w.toUpperCase()&&w.length>1?w.split("-").map(s=>s.charAt(0)+s.slice(1).toLowerCase()).join("-"):w).join(" ");
+const last = n=>{const p=nm(n).split(" ");return p[p.length-1]};
+const get = (slug,sex)=>DATA.events.find(e=>e.slug===slug&&e.sex===sex);
+const slugs = [...new Set(DATA.events.map(e=>e.slug))];
+let cur = {slug:"800m",sex:"women",nat:"GER"};
+if(!NAT[cur.nat]) cur.nat="GER";
+
+const MON={Jan:"01",Feb:"02",Mar:"03",Apr:"04",May:"05",Jun:"06",Jul:"07",Aug:"08",Sep:"09",Oct:"10",Nov:"11",Dec:"12"};
+const deDate=s=>{const p=String(s).split(" ");return p.length===3&&MON[p[1]]?`${p[0].padStart(2,"0")}.${MON[p[1]]}.${p[2]}`:s};
+$("asof").textContent = "World Ranking, Stand "+deDate(DATA.asOf);
+$("tot").textContent = DATA.germanInField+" von 36 im Feld";
+
+function slots(){
+  let h=`<span></span><span class="sx">Frauen</span><span class="sx">Männer</span>`;
+  slugs.forEach(s=>{
+    h+=`<span class="ev">${get(s,"women").label}</span>`;
+    ["women","men"].forEach(x=>{
+      const e=get(s,x), top=e.athletes.slice(0,3);
+      const sq=[0,1,2].map(i=>`<i class="sq ${top[i]?top[i].status:"out"}"></i>`).join("");
+      const n=top.filter(a=>a.status==="in").length;
+      h+=`<button class="slot" data-s="${s}" data-x="${x}" aria-current="${s===cur.slug&&x===cur.sex}" aria-label="${e.label} ${SEX[x]}: ${n} von 3 im Feld">${sq}</button>`;
+    });
+  });
+  $("slots").innerHTML=h;
+}
+function lane(e){
+  const adj=e.adjustedCut, max=Math.ceil(Math.max(adj*1.2,e.fieldSize*1.6)/10)*10;
+  const pos=p=>Math.min(p,max)/max*100;
+  const fs=pos(e.fieldSize), ad=pos(adj);
+  let h=`<div class="zone" style="width:${ad}%"></div>`;
+  h+=`<div class="mark${fs>80?" end":""}" style="left:${fs}%"><small>Feld ${e.fieldSize}</small></div>`;
+  if(adj>e.fieldSize) h+=`<div class="mark adj${ad>80?" end":""}" style="left:${ad}%;bottom:-46px"><small>mit Limit bis ${adj}</small></div>`;
+  $("lane").innerHTML=h;
+  // Startnummern: drei Ebenen gegen Überlappung
+  const box=$("lanebox"); box.querySelectorAll(".bib").forEach(b=>b.remove());
+  e.athletes.slice(0,6).forEach((a,i)=>{
+    const major=i<3, lvl=major?[64,34,4][i]:0;
+    const b=document.createElement("div");
+    const pp=pos(a.place); b.className="bib"+(major?"":" minor")+(pp<12?" l":pp>88?" r":"");
+    b.style.left="0%";
+    b.innerHTML=major?`<span class="tag"><b>${a.place}</b>${esc(last(a.name))}</span><span class="stem" style="height:${lvl+8}px"></span><span class="dot"></span>`:`<span class="dot"></span>`;
+    box.appendChild(b);
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{b.style.left=`calc(${pos(a.place)}%)`}));
+  });
+  box.setAttribute("aria-label",`Laufbahn ${e.label} ${SEX[e.sex]}: Feldgröße ${e.fieldSize}, mit Nationen-Limit bis Platz ${adj}. Beste Deutsche: ${e.athletes.slice(0,3).map(a=>nm(a.name)+" Platz "+a.place).join(", ")}`);
+  $("scalemax").textContent="Platz "+max+(e.athletes.some(a=>a.place>max)?"+":"");
+}
+function row(a,i,e){
+  const lim=i>=3&&a.status==="in";
+  const pill=lim?`<span class="pill out">Nationen-Limit</span>`:`<span class="pill ${a.status}">${STATUS[a.status]}</span>`;
+  const g=a.gap>=0?`${a.gap} Plätze Puffer`:`${-a.gap} Plätze dahinter`;
+  return `<div class="row"><div class="place">${a.place}</div><div class="who"><strong>${esc(nm(a.name))}</strong><small>${a.score} Punkte, gewertet: ${esc(a.events)}</small></div><div class="st">${pill}<small>${g}</small></div></div>`;
+}
+function focus(){
+  const e=get(cur.slug,cur.sex);
+  $("ev").innerHTML=slugs.map(s=>`<button class="tab" data-s="${s}" aria-pressed="${s===cur.slug}">${get(s,"women").label}</button>`).join("");
+  $("sx").innerHTML=Object.keys(SEX).map(x=>`<button data-x="${x}" aria-pressed="${x===cur.sex}">${SEX[x]}</button>`).join("");
+  $("t").textContent=`${e.label} ${SEX[e.sex]}`;
+  $("facts").innerHTML=`<div class="fact"><span>WM-Feld</span><b>${e.fieldSize}</b></div><div class="fact"><span>Mit Nationen-Limit bis</span><b>Platz ${e.adjustedCut}</b></div><div class="fact"><span>WA-Norm</span><b>${e.standard}</b></div>`;
+  lane(e);
+  const top=e.athletes.slice(0,3), rest=e.athletes.slice(3,8);
+  $("list").innerHTML=top.length?top.map((a,i)=>row(a,i,e)).join(""):`<p class="empty">Keine deutschen Athlet:innen in den Top ${e.checkedTo}.</p>`;
+  $("more").hidden=!rest.length;
+  $("more-s").textContent=`Weitere Deutsche (${rest.length})`;
+  $("list2").innerHTML=rest.map((a,i)=>row(a,i+3,e)).join("");
+}
+function nations(){
+  const e=get(cur.slug,cur.sex);
+  $("units-h").textContent=`Wer füllt das Feld? ${e.label} ${SEX[e.sex]}`;
+  $("units-sub").textContent=`Ein Kästchen pro Läufer:in innerhalb des Felds von ${e.fieldSize}. ${e.over3} Plätze liegen über dem Limit und rücken nach.`;
+  $("units").innerHTML=e.nations.map(n=>{
+    const has=!!NAT[n.nat], cells=Array.from({length:n.count},(_,i)=>`<i class="c${i>=3?" x":""}"></i>`).join("");
+    return `<button class="urow" data-n="${n.nat}" ${has?"":"disabled"} aria-pressed="${n.nat===cur.nat}" aria-label="${n.nat}: ${n.count} im Feld${has?", Regeln anzeigen":""}"><span class="code">${n.nat}</span><span class="cells">${cells}</span><span class="n">${n.count}</span></button>`;
+  }).join("");
+  $("chips").innerHTML=NATIONS.map(x=>`<button class="chip" data-n="${x.nat}" aria-pressed="${x.nat===cur.nat}">${x.nat}</button>`).join("");
+  const n=NAT[cur.nat];
+  const stand=n.stand==="offen"?"Regeln 2027 noch nicht veröffentlicht":n.stand.startsWith("2027")?"Regeln für Peking 2027 veröffentlicht":"Regeln 2027 noch offen";
+  $("card").innerHTML=`<div class="top"><h4>${esc(n.name)}</h4><span class="verband">${esc(n.verband)}</span></div>
+    <div class="kurz">${esc(n.kurz)}</div>
+    <dl><dt>Meisterschaft</dt><dd>${esc(n.meisterschaft)}</dd><dt>Eigene Normen</dt><dd>${esc(n.normen)}</dd><dt>Ranking-Tickets</dt><dd>${esc(n.ranking)}</dd><dt>Marathon</dt><dd>${esc(n.marathon)}</dd></dl>
+    <div class="meta"><span>${stand}</span><span>Grundlage: ${esc(n.basis)}</span><span>${SRC[n.quelle]}</span><a href="${esc(n.url)}" target="_blank" rel="noopener">Quelle öffnen</a></div>`;
+  $("matrix").innerHTML=NATIONS.map(x=>{
+    const f=x.flags;
+    return `<tr class="${x.nat===cur.nat?"sel":""}"><td><button class="rowbtn" data-n="${x.nat}">${esc(x.name)}</button></td><td><span class="v ${VCLS[f.trials]}">${f.trials}</span></td><td><span class="v ${VCLS[f.normen]}">${f.normen}</span></td><td><span class="v ${VCLS[f.ranking]}">${f.ranking}</span></td><td>${esc(x.stand==="offen"?"offen":x.stand)}</td></tr>`;
+  }).join("");
+}
+function render(){slots();focus();nations()}
+document.addEventListener("click",ev=>{
+  const b=ev.target.closest("button"); if(!b||b.disabled) return;
+  const before=cur.slug+cur.sex;
+  if(b.dataset.s) cur.slug=b.dataset.s;
+  if(b.dataset.x) cur.sex=b.dataset.x;
+  if(b.dataset.n&&NAT[b.dataset.n]) cur.nat=b.dataset.n;
+  if(b.dataset.s||b.dataset.x||b.dataset.n){
+    if(b.dataset.n&&before===cur.slug+cur.sex){nations()} else render();
+  }
+});
+render();
+</script>

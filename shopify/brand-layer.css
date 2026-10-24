@@ -1,0 +1,10 @@
+/* Auslaufen Haus-Schrift für den Shop (Theme „Studio“)
+   Einfügen in: Onlineshop › Themes › … › Code bearbeiten › layout/theme.liquid, direkt vor </head>,
+   zusammen mit dem Adobe-Fonts-Link. Als <style>…</style>-Block (siehe README). */
+
+/* 1. Futura PT als Haus-Schrift für Überschriften und Text */
+:root {
+  --font-heading-family: "futura-pt", Futura, "Century Gothic", sans-serif !important;
+  --font-body-family: "futura-pt", Futura, "Century Gothic", sans-serif !important;
+  --font-heading-weight: 800 !important;
+}

@@ -1,0 +1,45 @@
+{
+ "asOf": "20 Oct 2026",
+ "athletes": [
+  {
+   "place": 20,
+   "name": "Florian BREMM",
+   "score": 1256
+  },
+  {
+   "place": 24,
+   "name": "Mohamed ABDILAAHI",
+   "score": 1248
+  },
+  {
+   "place": 73,
+   "name": "Frederik RUPPERT",
+   "score": 1160
+  },
+  {
+   "place": 208,
+   "name": "Theodor SCHUCHT",
+   "score": 1094
+  },
+  {
+   "place": 403,
+   "name": "Maximilian THORWIRTH",
+   "score": 1047
+  },
+  {
+   "place": 466,
+   "name": "Tristan KAUFHOLD",
+   "score": 1034
+  },
+  {
+   "place": 482,
+   "name": "Jona BODIRSKY",
+   "score": 1030
+  },
+  {
+   "place": 492,
+   "name": "Maximilian BERGER",
+   "score": 1028
+  }
+ ]
+}

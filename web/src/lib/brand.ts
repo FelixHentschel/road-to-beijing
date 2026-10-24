@@ -8,6 +8,6 @@ import hero from "data-url:../assets/brand/dachkante.jpg"
 import band from "data-url:../assets/brand/ornament-rot.jpg"
 import zweige from "data-url:../assets/brand/weide.jpg"
 import rasterRot from "data-url:../assets/brand/raster-rot.jpg"
-import risse from "data-url:../assets/brand/risse.jpg"
+import bahn from "data-url:../assets/brand/bahn-rot.jpg"
 
-export const IMG = { wortmarkeDunkel, wortmarkeHell, pillDunkel, hero, band, zweige, rasterRot, risse }
+export const IMG = { wortmarkeDunkel, wortmarkeHell, pillDunkel, hero, band, zweige, rasterRot, bahn }

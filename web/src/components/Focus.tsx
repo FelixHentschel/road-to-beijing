@@ -5,10 +5,9 @@ import { IMG } from "@/lib/brand"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import {
   DATA, PATH, SEX, SLUGS, STATUS, deDate, deWindow, detail, getEvent, lastName, margin, nm,
-  type Athlete, type RaceEvent, type Path,
+  type Athlete, type RaceEvent,
 } from "@/lib/data"
 
-const FIELD_W = 70 // Anteil der Bahn für das WM-Feld, Rest = Nachrückerliste
 
 export function Focus({ cur, onPick }: { cur: { slug: string; sex: "women" | "men" }; onPick: (s: string, x: string) => void }) {
   const e = getEvent(cur.slug, cur.sex)
@@ -78,24 +77,38 @@ function Fact({ k, v }: { k: string; v: string }) {
   )
 }
 
-const SEG: { key: Path[]; cls: string; label: string }[] = [
-  { key: ["wildcard", "kontinent", "label"], cls: "seg-other", label: "Wildcard, Titel, Label-Rennen" },
-  { key: ["norm"], cls: "bg-[#f2f3f4]", label: "Norm" },
-  { key: ["ranking"], cls: "bg-brand", label: "World Ranking" },
-]
+/* Die Bahn von oben: Gelaufen wird von links nach rechts. Rechts der weißen Ziellinie stehen die Qualifizierten
+   (Platz 1 ganz rechts), links die Nachrücker, die noch laufen (je näher an der Linie, desto knapper). */
+const FIN = 58 // Position der Ziellinie in Prozent der Bahnbreite
 
 function waitCap(e: RaceEvent) {
   const max = Math.max(0, ...e.athletes.filter((a) => !a.pos && a.wait).map((a) => a.wait!))
   return max <= 20 ? 20 : max <= 40 ? 40 : 60
 }
 
-function posOf(a: Athlete, e: RaceEvent, cap: number): number | null {
-  if (a.pos) return ((a.pos - 0.5) / e.fieldSize) * FIELD_W
-  if (a.wait) return FIELD_W + (Math.min(a.wait, cap) / cap) * (100 - FIELD_W) - 1.5
+function xOf(a: Athlete, e: RaceEvent, cap: number): number | null {
+  if (a.pos) return FIN + 3 + (1 - (a.pos - 0.5) / e.fieldSize) * (100 - FIN - 9)
+  if (a.wait) return FIN - 3 - (Math.min(a.wait, cap) / cap) * (FIN - 9)
   return null
 }
 
-/* Die Bahn: links das WM-Feld, rechts hinter der roten Quali-Linie die Nachrücker auf den echten Rissen im Tartan */
+function Runner() {
+  // abstrakt: Schulterbalken und Kopfpunkt, dahinter zwei verwischte Nachbilder (Bewegung nach rechts)
+  const body = (
+    <>
+      <rect x="50" y="22" width="14" height="36" rx="7" />
+      <circle cx="73" cy="40" r="7" />
+    </>
+  )
+  return (
+    <svg viewBox="24 14 64 52" className="h-full w-full overflow-visible" aria-hidden="true">
+      <g fill="#d4d7db" opacity="0.18" filter="url(#rtb-motion-strong)" transform="translate(-30 0)">{body}</g>
+      <g fill="#d4d7db" opacity="0.4" filter="url(#rtb-motion)" transform="translate(-14 0)">{body}</g>
+      <g fill="#d4d7db">{body}</g>
+    </svg>
+  )
+}
+
 function Lane({ e }: { e: RaceEvent }) {
   const cap = waitCap(e)
   const [ready, setReady] = useState(false)
@@ -104,80 +117,71 @@ function Lane({ e }: { e: RaceEvent }) {
     const id = requestAnimationFrame(() => requestAnimationFrame(() => setReady(true)))
     return () => cancelAnimationFrame(id)
   }, [e.slug, e.sex])
-  let acc = 0
-  const segs = SEG.map((s) => {
-    const n = s.key.reduce((t, k) => t + (e.paths[k] || 0), 0)
-    const left = (acc / e.fieldSize) * FIELD_W
-    acc += n
-    return { ...s, n, left, width: (n / e.fieldSize) * FIELD_W }
-  }).filter((s) => s.n > 0)
-  const empty = e.fieldSize - e.assigned
-  const placed = e.athletes.map((a) => ({ a, x: posOf(a, e, cap) })).filter((p) => p.x !== null) as { a: Athlete; x: number }[]
-  const label = `Startliste ${e.label} ${SEX[e.sex]}: ${e.assigned} von ${e.fieldSize} Plätzen vergeben. ` +
-    (placed.length ? placed.slice(0, 3).map(({ a }) => `${nm(a.name)} ${a.pos ? "Position " + a.pos : "Nachrücker " + a.wait}`).join(", ") : "Keine Deutschen auf der Liste.")
+  const placed = e.athletes.map((a) => ({ a, x: xOf(a, e, cap) })).filter((p) => p.x !== null) as { a: Athlete; x: number }[]
+  const limited = e.athletes.filter((a) => a.status === "limit").length
+  const lanes = Math.max(3, placed.length)
+  const label = `Bahn ${e.label} ${SEX[e.sex]}: ` +
+    (placed.length
+      ? placed.map(({ a }) => `${nm(a.name)} ${a.pos ? "Platz " + a.pos + ", qualifiziert" : "Nachrücker " + a.wait + ", noch nicht qualifiziert"}`).join("; ")
+      : "Keine Deutschen auf der Liste.")
 
   return (
     <div className="mt-10">
-      <div className={cn("relative", placed.length ? "pt-[118px]" : "pt-10")} role="img" aria-label={label}>
-        <div className="relative h-[72px] bg-night">
-          {segs.map((s) => (
-            <div key={s.label} className={cn("absolute inset-y-[14px]", s.cls)} style={{ left: `${s.left}%`, width: `${s.width}%` }} />
-          ))}
-          {empty > 0 && (
-            <div
-              className="absolute inset-y-[14px] border-2 border-dashed border-[#9aa0a6]"
-              style={{ left: `${(e.assigned / e.fieldSize) * FIELD_W}%`, width: `${(empty / e.fieldSize) * FIELD_W}%` }}
-            />
-          )}
-          <div className="absolute inset-y-0 right-0 overflow-hidden" style={{ left: `${FIELD_W}%` }}>
-            <img src={IMG.risse} alt="" aria-hidden="true" className="h-full w-full object-cover opacity-90" />
-          </div>
-          {/* Quali-Linie */}
-          <div className="absolute -bottom-9 -top-3 w-[5px] -translate-x-1/2 bg-brand" style={{ left: `${FIELD_W}%` }}>
-            <span className="absolute right-3 top-full -mt-6 whitespace-nowrap text-sm font-bold uppercase tracking-[0.08em] text-ink">Feld {e.fieldSize}</span>
-            <span className="absolute left-3 top-full -mt-6 whitespace-nowrap text-sm font-bold uppercase tracking-[0.08em] text-ink">Nachrücker</span>
-          </div>
-        </div>
+      <svg width="0" height="0" className="absolute" aria-hidden="true">
+        <defs>
+          <filter id="rtb-motion" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur stdDeviation="5 0.4" /></filter>
+          <filter id="rtb-motion-strong" x="-80%" y="-20%" width="260%" height="140%"><feGaussianBlur stdDeviation="10 0.6" /></filter>
+        </defs>
+      </svg>
+      <div className="relative mb-2 flex h-6 items-end justify-between gap-4 text-[13px] font-semibold uppercase tracking-[0.1em] text-dim sm:text-sm">
+        <span>← Noch nicht qualifiziert</span>
+        <span className="absolute bottom-0 hidden -translate-x-1/2 font-extrabold text-ink sm:block" style={{ left: `${FIN}%` }}>Ziel</span>
+        <span>Qualifiziert →</span>
+      </div>
+      <div
+        className="relative overflow-hidden bg-brand"
+        role="img"
+        aria-label={label}
+        style={{
+          height: lanes * 64,
+          backgroundImage: `repeating-linear-gradient(180deg, rgba(242,243,244,.92) 0 3px, transparent 3px 64px), url(${IMG.bahn})`,
+          backgroundSize: "100% 64px, cover",
+        }}
+      >
+        <div className="absolute inset-x-0 bottom-0 h-[3px] bg-[rgba(242,243,244,.92)]" />
+        <div className="absolute inset-y-0 w-3 -translate-x-1/2 border-x border-black/20 bg-white" style={{ left: `${FIN}%` }} />
         {placed.map(({ a, x }, i) => {
-          const major = i < 3
-          const lvl = major ? [74, 40, 6][i] : 0
-          const edge = x < 10 ? "items-start" : x > 90 ? "items-end" : "items-center"
+          const tagLeft = x > 78
           return (
             <div
               key={a.name}
-              className={cn("pointer-events-none absolute bottom-[72px] flex w-0 flex-col transition-[left] duration-700", edge)}
-              style={{ left: `${ready ? x : 0}%`, transitionTimingFunction: "cubic-bezier(.16,1,.3,1)" }}
+              className="absolute flex h-[64px] items-center transition-[left] duration-[1100ms]"
+              style={{ top: i * 64, left: `${ready ? x : 2}%`, transitionTimingFunction: "cubic-bezier(.16,1,.3,1)", transitionDelay: `${i * 90}ms` }}
             >
-              {major && (
-                <>
-                  <span className={cn("bib whitespace-nowrap px-2.5 pb-1 pt-2.5 text-[15px] font-semibold leading-tight", x < 10 && "-ml-4", x > 90 && "-mr-4")}>
-                    <b className="mr-1.5 font-extrabold">{a.pos ?? `N${a.wait}`}</b>
-                    {lastName(a.name)}
-                  </span>
-                  <span className="w-0.5 bg-ink" style={{ height: lvl + 10 }} />
-                </>
-              )}
-              <span className={cn("-mb-2 h-4 w-4 rounded-full border-[3px] border-ink bg-paper", !major && "-mb-1.5 h-3 w-3 border-2 bg-ink")} />
+              <div className="relative h-[60px] w-[92px] -translate-x-1/2"><Runner /></div>
+              <span
+                className={cn(
+                  "absolute top-1/2 -translate-y-1/2 whitespace-nowrap border-t-4 border-ink bg-[#f2f3f4] px-2 pb-0.5 pt-0.5 text-[13px] font-semibold leading-tight text-[#0a0a0a] sm:text-[15px]",
+                  tagLeft ? "right-[130px] sm:right-[136px]" : "left-[44px]",
+                )}
+              >
+                <b className="font-extrabold sm:mr-1">{a.pos ?? `N${a.wait}`}</b>
+                <span className="hidden sm:inline">{lastName(a.name)}</span>
+              </span>
             </div>
           )
         })}
+        {!placed.length && (
+          <div className="absolute inset-0 flex items-center px-5">
+            <span className="bg-[#f2f3f4] px-3 py-1.5 text-[15px] font-semibold text-[#0a0a0a]">{e.sex === "women" ? "Noch keine Deutsche" : "Noch kein Deutscher"} auf der Liste</span>
+          </div>
+        )}
       </div>
-      <div className="mt-14 flex flex-wrap justify-between gap-x-6 gap-y-2 text-[15px] text-dim">
-        <div className="flex flex-wrap gap-x-5 gap-y-1">
-          {SEG.map((s) => (
-            <span key={s.label} className="inline-flex items-center gap-2">
-              <i className={cn("inline-block h-3.5 w-5 border border-ink", s.cls)} />
-              {s.label}
-            </span>
-          ))}
-          {empty > 0 && (
-            <span className="inline-flex items-center gap-2">
-              <i className="inline-block h-3.5 w-5 border-2 border-dashed border-[#9aa0a6]" />
-              noch frei ({empty})
-            </span>
-          )}
-        </div>
-        <span>Nachrücker bis N{cap}{e.athletes.some((a) => !a.pos && (a.wait || 0) > cap) ? "+" : ""}</span>
+      <div className="mt-3 flex flex-wrap justify-between gap-x-6 gap-y-1 text-[15px] text-dim">
+        <span>{e.assigned} von {e.fieldSize} Plätzen vergeben. Je weiter rechts, desto besser der Listenplatz.</span>
+        <span>
+          {limited > 0 ? `${limited} weitere Deutsche auf der Liste, aber am Nationen-Limit · ` : ""}Nachrücker bis N{cap}{e.athletes.some((a) => !a.pos && (a.wait || 0) > cap) ? "+" : ""}
+        </span>
       </div>
     </div>
   )
@@ -274,7 +278,7 @@ function Explainer({ e }: { e: RaceEvent }) {
     <div className="flex flex-col gap-3.5 text-base text-dim">
       <h3 className="label m-0 mb-1 text-dim">So liest du die Liste</h3>
       <p className="m-0"><strong className="text-ink">Qualifiziert:</strong> World Athletics führt die Person auf der offiziellen Liste als qualifiziert, über Norm, World Ranking oder Wildcard.</p>
-      <p className="m-0"><strong className="text-ink">Nachrücker:</strong> steht auf der offiziellen Nachrückerliste hinter der Quali-Linie. Bis Platz {DATA.near} gilt das hier als knapp dahinter.</p>
+      <p className="m-0"><strong className="text-ink">Nachrücker:</strong> steht auf der offiziellen Nachrückerliste und läuft auf der Bahn noch links vor der Ziellinie. Bis Platz {DATA.near} gilt das hier als knapp dahinter.</p>
       <p className="m-0"><strong className="text-ink">Nationen-Limit:</strong> pro Land starten höchstens {DATA.maxPerNation}, mit Wildcard vier.</p>
       <p className="m-0"><strong className="text-ink">Quali-Zeitraum:</strong> {deWindow(e.window)}. Was davor gelaufen wurde, zählt nicht.</p>
       <div className="night mt-2 px-5 py-4">

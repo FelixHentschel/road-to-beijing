@@ -44,7 +44,7 @@ export function Hero({ embed }: { embed: boolean }) {
       </div>
 
       {/* Ornamentband aus der Verbotenen Stadt als Abschluss */}
-      <img src={IMG.band} alt="" aria-hidden="true" className="relative block h-[64px] w-full object-cover object-bottom md:h-[96px]" />
+      <img src={IMG.band} loading="lazy" decoding="async" alt="" aria-hidden="true" className="relative block h-[64px] w-full object-cover object-bottom md:h-[96px]" />
     </header>
   )
 }
@@ -66,7 +66,7 @@ export function Overview({ cur, onPick }: { cur: { slug: string; sex: string }; 
       <div className="grid items-stretch gap-10 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-14">
         {/* Die große Zahl auf dem roten Raster (Waldboden, Adobe-Halbton) */}
         <div className="relative flex min-h-[340px] flex-col justify-end overflow-hidden border-2 border-ink">
-          <img src={IMG.rasterRot} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />
+          <img src={IMG.rasterRot} loading="lazy" decoding="async" alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />
           <div className="relative m-5 self-start bg-paper px-5 pb-4 pt-3 md:m-7">
             <span className="label text-dim">Deutsche Startplätze</span>
             <div className="mt-1 flex items-baseline gap-2">

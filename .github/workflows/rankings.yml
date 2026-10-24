@@ -59,7 +59,7 @@ jobs:
         run: |
           pnpm install --frozen-lockfile
           pnpm run bundle
-          mkdir -p ../site && cp bundle.html ../site/index.html
+          mkdir -p ../site && cp -r dist/. ../site/
       - name: Futura PT (Adobe Fonts) einbinden
         if: (steps.data.outputs.changed == 'true' || github.event_name != 'schedule') && vars.TYPEKIT_ID != ''
         env:

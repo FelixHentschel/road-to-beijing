@@ -1,13 +1,12 @@
-// Bildmaterial aus Moodboard und Materialbibliothek, als data-URL ins Bundle eingebettet (eine Datei, keine Fremd-Requests).
+// Bildmaterial aus Moodboard und Materialbibliothek, als einzelne WebP-Dateien (werden gecacht und erst bei Bedarf geladen).
 // Peking-Details (Dachkante, Ornament, Weide) plus eigenes Material ohne Personen.
-// Alternative aus eigenen Fotos, falls die Peking-Bilder ersetzt werden müssen: hero.jpg, band.jpg, aeste.jpg
-import wortmarkeDunkel from "data-url:../assets/brand/wortmarke-dunkel.png"
-import wortmarkeHell from "data-url:../assets/brand/wortmarke-hell.png"
-import pillDunkel from "data-url:../assets/brand/pill-dunkel.png"
-import hero from "data-url:../assets/brand/dachkante.jpg"
-import band from "data-url:../assets/brand/ornament-rot.jpg"
-import zweige from "data-url:../assets/brand/weide.jpg"
-import rasterRot from "data-url:../assets/brand/raster-rot.jpg"
-import bahn from "data-url:../assets/brand/bahn-rot.jpg"
+// Alternative aus eigenen Fotos, falls die Peking-Bilder ersetzt werden müssen: hero.webp, band.webp, aeste.webp
+import wortmarkeDunkel from "url:../assets/brand/wortmarke-dunkel.webp"
+import pillDunkel from "url:../assets/brand/pill-dunkel.webp"
+import hero from "url:../assets/brand/dachkante.webp"
+import band from "url:../assets/brand/ornament-rot.webp"
+import zweige from "url:../assets/brand/weide.webp"
+import rasterRot from "url:../assets/brand/raster-rot.webp"
+import bahn from "url:../assets/brand/bahn-rot.webp"
 
-export const IMG = { wortmarkeDunkel, wortmarkeHell, pillDunkel, hero, band, zweige, rasterRot, bahn }
+export const IMG = { wortmarkeDunkel, pillDunkel, hero, band, zweige, rasterRot, bahn }

@@ -54,9 +54,9 @@ export default function App() {
       <Focus cur={cur} onPick={pick} />
       <Nations e={e} nat={nat} onNat={setNat} />
       <footer className="night mt-24 md:mt-32">
-        <img src={IMG.band} alt="" aria-hidden="true" className="block h-[56px] w-full scale-y-[-1] object-cover object-bottom md:h-[80px]" />
+        <img src={IMG.band} loading="lazy" decoding="async" alt="" aria-hidden="true" className="block h-[56px] w-full scale-y-[-1] object-cover object-bottom md:h-[80px]" />
         <div className="wrap grid gap-10 py-12 md:grid-cols-[auto_minmax(0,1fr)] md:gap-16">
-          <img src={IMG.pillDunkel} alt="Auslaufen Podcast" className="h-[120px] w-auto" />
+          <img src={IMG.pillDunkel} loading="lazy" decoding="async" alt="Auslaufen Podcast" className="h-[120px] w-auto" />
           <div className="dim flex flex-col gap-2 text-[15px]">
             <span>
               Quelle der Quali-Daten: <a href={DATA.source} target="_blank" rel="noopener" className="text-nightfg underline">Road to Beijing 27, World Athletics</a>. Die Liste wird mit dem World Ranking aktualisiert, endgültig ist der Stand vom 25.08.2027 (Marathon 05.05.2027). Hinweise auf Deutsche außerhalb der Liste stammen aus dem World Ranking und zählen nicht für die Quali.

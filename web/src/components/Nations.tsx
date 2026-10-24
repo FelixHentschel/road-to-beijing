@@ -13,7 +13,7 @@ export function Nations({ e, nat, onNat }: { e: RaceEvent; nat: string; onNat: (
   return (
     <section className="relative mt-24 overflow-hidden md:mt-32" aria-labelledby="nat-h">
       {/* Weidenzweige vor dem Eckturm, übergroß über die Ecke (Peking-Detail) */}
-      <img src={IMG.zweige} alt="" aria-hidden="true" className="pointer-events-none absolute right-[-8%] top-[3px] h-[220px] w-[90%] object-cover object-[60%_30%] mix-blend-multiply dark:hidden md:h-[360px] md:w-[66%]" style={{ maskImage: "linear-gradient(90deg, transparent, #000 30%, #000 85%, transparent)", WebkitMaskImage: "linear-gradient(90deg, transparent, #000 30%, #000 85%, transparent)" }} />
+      <img src={IMG.zweige} loading="lazy" decoding="async" alt="" aria-hidden="true" className="pointer-events-none absolute right-[-8%] top-[3px] h-[220px] w-[90%] object-cover object-[60%_30%] mix-blend-multiply dark:hidden md:h-[360px] md:w-[66%]" style={{ maskImage: "linear-gradient(90deg, transparent, #000 30%, #000 85%, transparent)", WebkitMaskImage: "linear-gradient(90deg, transparent, #000 30%, #000 85%, transparent)" }} />
       <div className="wrap relative">
       <div className="mb-[200px] h-[3px] bg-ink md:mb-[320px]" aria-hidden="true" />
       <span className="label text-dim">Nominierung</span>

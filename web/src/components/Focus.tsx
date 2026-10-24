@@ -155,8 +155,8 @@ function Lane({ e }: { e: RaceEvent }) {
           return (
             <div
               key={a.name}
-              className="absolute flex h-[64px] items-center transition-[left] duration-[1100ms]"
-              style={{ top: i * 64, left: `${ready ? x : 2}%`, transitionTimingFunction: "cubic-bezier(.16,1,.3,1)", transitionDelay: `${i * 90}ms` }}
+              className="absolute flex h-[64px] items-center transition-[left]"
+              style={{ top: i * 64, left: `${ready ? x : 2}%`, transitionDuration: "1100ms", transitionTimingFunction: "cubic-bezier(.16,1,.3,1)", transitionDelay: `${i * 90}ms` }}
             >
               <div className="relative h-[60px] w-[92px] -translate-x-1/2"><Runner /></div>
               <span

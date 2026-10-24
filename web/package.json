@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "bundle": "rm -rf dist bundle.html .parcel-cache && parcel build index.html --dist-dir dist --no-source-maps && html-inline dist/index.html > bundle.html"
+    "bundle": "rm -rf dist .parcel-cache && parcel build index.html --dist-dir dist --no-source-maps --public-url ./"
   },
   "dependencies": {
     "@hookform/resolvers": "^6.0.0",

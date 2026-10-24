@@ -1,6 +1,6 @@
 {
- "fetched": "2026-10-23",
- "fingerprint": "0fc581fb5e0843a8",
+ "fetched": "2026-10-24",
+ "fingerprint": "e31b3e02735c2ff4",
  "germanInField": 15,
  "wrAsOf": "20 Oct 2026",
  "maxPerNation": 3,
@@ -1213,8 +1213,8 @@
     "ranking": 76
    },
    "cutScore": 1053,
-   "listLength": 686,
-   "blocked": 353,
+   "listLength": 687,
+   "blocked": 354,
    "athletes": [
     {
      "name": "Domenika MAYER",
@@ -1462,7 +1462,7 @@
     {
      "nat": "KEN",
      "in": 4,
-     "blocked": 81
+     "blocked": 82
     },
     {
      "nat": "JPN",

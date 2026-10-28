@@ -1,0 +1,1745 @@
+{
+ "fetched": "2026-10-28",
+ "fingerprint": "2be6b18737809e69",
+ "germanInField": 15,
+ "wrAsOf": "20 Oct 2026",
+ "maxPerNation": 3,
+ "near": 10,
+ "events": [
+  {
+   "slug": "800m",
+   "sex": "women",
+   "label": "800 m",
+   "eventId": 10229512,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229512",
+   "fieldSize": 56,
+   "standard": "1:57,50",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 30,
+   "paths": {
+    "wildcard": 2,
+    "norm": 4,
+    "ranking": 24
+   },
+   "cutScore": 877,
+   "listLength": 45,
+   "blocked": 9,
+   "athletes": [
+    {
+     "name": "Smilla KOLBE",
+     "status": "in",
+     "path": "ranking",
+     "pos": 19,
+     "wait": null,
+     "countryPos": 1,
+     "score": 1192,
+     "result": null,
+     "wrPlace": 16,
+     "label": null,
+     "gap": 315,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 46,
+     "name": "Majtie KOLBERG",
+     "score": 1216
+    },
+    {
+     "place": 85,
+     "name": "Jana Marie BECKER",
+     "score": 1177
+    },
+    {
+     "place": 100,
+     "name": "Tanja SPILL",
+     "score": 1165
+    },
+    {
+     "place": 153,
+     "name": "Jennie HAUKE",
+     "score": 1134
+    },
+    {
+     "place": 155,
+     "name": "Lara TORTELL",
+     "score": 1133
+    }
+   ],
+   "nations": [
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 9
+    },
+    {
+     "nat": "SUI",
+     "in": 4,
+     "blocked": 0
+    },
+    {
+     "nat": "FRA",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "GBR",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "ETH",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "IND",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "AUS",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "BOT",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "800m",
+   "sex": "men",
+   "label": "800 m",
+   "eventId": 10229501,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229501",
+   "fieldSize": 56,
+   "standard": "1:43,00",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 32,
+   "paths": {
+    "wildcard": 2,
+    "norm": 5,
+    "ranking": 24,
+    "kontinent": 1
+   },
+   "cutScore": 858,
+   "listLength": 42,
+   "blocked": 7,
+   "athletes": [],
+   "notYet": [
+    {
+     "place": 45,
+     "name": "Alexander STEPANOV",
+     "score": 1232
+    },
+    {
+     "place": 82,
+     "name": "Malik SKUPIN-ALFA",
+     "score": 1191
+    },
+    {
+     "place": 157,
+     "name": "Adrian ENGSTLER",
+     "score": 1146
+    },
+    {
+     "place": 182,
+     "name": "Louis BUSCHBECK",
+     "score": 1138
+    },
+    {
+     "place": 232,
+     "name": "Rocco MARTIN",
+     "score": 1117
+    }
+   ],
+   "nations": [
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 7
+    },
+    {
+     "nat": "FRA",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "ALG",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "ESP",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "GBR",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "IND",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "POL",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "AUS",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "1500m",
+   "sex": "women",
+   "label": "1500 m",
+   "eventId": 10229513,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229513",
+   "fieldSize": 56,
+   "standard": "3:58,00",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 27,
+   "paths": {
+    "wildcard": 2,
+    "norm": 12,
+    "ranking": 13
+   },
+   "cutScore": 951,
+   "listLength": 30,
+   "blocked": 1,
+   "athletes": [],
+   "notYet": [
+    {
+     "place": 54,
+     "name": "Nele WEßEL",
+     "score": 1195
+    },
+    {
+     "place": 74,
+     "name": "Verena MEISL",
+     "score": 1172
+    },
+    {
+     "place": 122,
+     "name": "Jolanda KALLABIS",
+     "score": 1135
+    },
+    {
+     "place": 148,
+     "name": "Vera PETRYKOWSKI",
+     "score": 1123
+    },
+    {
+     "place": 192,
+     "name": "Adia BUDDE",
+     "score": 1101
+    }
+   ],
+   "nations": [
+    {
+     "nat": "AUS",
+     "in": 3,
+     "blocked": 1
+    },
+    {
+     "nat": "ETH",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "KEN",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "IRL",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "ITA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "POL",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "USA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "CAN",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "1500m",
+   "sex": "men",
+   "label": "1500 m",
+   "eventId": 10229502,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229502",
+   "fieldSize": 56,
+   "standard": "3:30,00",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 29,
+   "paths": {
+    "wildcard": 2,
+    "norm": 1,
+    "ranking": 26
+   },
+   "cutScore": 877,
+   "listLength": 31,
+   "blocked": 0,
+   "athletes": [
+    {
+     "name": "Robert FARKEN",
+     "status": "in",
+     "path": "ranking",
+     "pos": 6,
+     "wait": null,
+     "countryPos": 1,
+     "score": 1297,
+     "result": null,
+     "wrPlace": 3,
+     "label": null,
+     "gap": 420,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 83,
+     "name": "Marc TORTELL",
+     "score": 1186
+    },
+    {
+     "place": 122,
+     "name": "Marius PROBST",
+     "score": 1159
+    },
+    {
+     "place": 139,
+     "name": "Tobias TENT",
+     "score": 1147
+    },
+    {
+     "place": 154,
+     "name": "Benne C. ANDERSON",
+     "score": 1139
+    },
+    {
+     "place": 186,
+     "name": "Florian ZITTEL",
+     "score": 1125
+    }
+   ],
+   "nations": [
+    {
+     "nat": "AUS",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "GBR",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "USA",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "FRA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "IRL",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "KEN",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "BEL",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "5000m",
+   "sex": "women",
+   "label": "5000 m",
+   "eventId": 10229514,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229514",
+   "fieldSize": 42,
+   "standard": "14:36,00",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 24,
+   "paths": {
+    "wildcard": 2,
+    "norm": 5,
+    "ranking": 17
+   },
+   "cutScore": 823,
+   "listLength": 32,
+   "blocked": 5,
+   "athletes": [],
+   "notYet": [
+    {
+     "place": 95,
+     "name": "Vanessa MIKITENKO",
+     "score": 1147
+    },
+    {
+     "place": 98,
+     "name": "Lisa MERKEL",
+     "score": 1145
+    },
+    {
+     "place": 121,
+     "name": "Elena BURKARD",
+     "score": 1130
+    },
+    {
+     "place": 183,
+     "name": "Lotte MEYBERG",
+     "score": 1098
+    },
+    {
+     "place": 282,
+     "name": "Carolina SCHÄFER",
+     "score": 1069
+    }
+   ],
+   "nations": [
+    {
+     "nat": "ETH",
+     "in": 4,
+     "blocked": 3
+    },
+    {
+     "nat": "AUS",
+     "in": 3,
+     "blocked": 1
+    },
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 1
+    },
+    {
+     "nat": "ITA",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "BRA",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "CRO",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "CZE",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "DJI",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "5000m",
+   "sex": "men",
+   "label": "5000 m",
+   "eventId": 10229609,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229609",
+   "fieldSize": 42,
+   "standard": "12:50,00",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 29,
+   "paths": {
+    "wildcard": 2,
+    "norm": 6,
+    "ranking": 21
+   },
+   "cutScore": 785,
+   "listLength": 37,
+   "blocked": 5,
+   "athletes": [],
+   "notYet": [
+    {
+     "place": 20,
+     "name": "Florian BREMM",
+     "score": 1256
+    },
+    {
+     "place": 24,
+     "name": "Mohamed ABDILAAHI",
+     "score": 1248
+    },
+    {
+     "place": 73,
+     "name": "Frederik RUPPERT",
+     "score": 1160
+    },
+    {
+     "place": 208,
+     "name": "Theodor SCHUCHT",
+     "score": 1094
+    },
+    {
+     "place": 403,
+     "name": "Maximilian THORWIRTH",
+     "score": 1047
+    }
+   ],
+   "nations": [
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 3
+    },
+    {
+     "nat": "KEN",
+     "in": 3,
+     "blocked": 2
+    },
+    {
+     "nat": "USA",
+     "in": 4,
+     "blocked": 0
+    },
+    {
+     "nat": "IND",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "FRA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "IRL",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "AUS",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "BDI",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "10000m",
+   "sex": "women",
+   "label": "10.000 m",
+   "eventId": 10229521,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229521",
+   "fieldSize": 27,
+   "standard": "30:40,00",
+   "window": "23 FEB 2026 – 22 AUG 2027",
+   "assigned": 27,
+   "paths": {
+    "wildcard": 1,
+    "ranking": 26
+   },
+   "cutScore": 1171,
+   "listLength": 232,
+   "blocked": 5,
+   "athletes": [
+    {
+     "name": "Lisa MERKEL",
+     "status": "in",
+     "path": "ranking",
+     "pos": 26,
+     "wait": null,
+     "countryPos": 1,
+     "score": 1171,
+     "result": null,
+     "wrPlace": 30,
+     "label": null,
+     "gap": 0,
+     "where": null
+    },
+    {
+     "name": "Eva DIETERICH",
+     "status": "out",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": 16,
+     "countryPos": 2,
+     "score": 1143,
+     "result": null,
+     "wrPlace": 56,
+     "label": null,
+     "gap": -28,
+     "where": null
+    },
+    {
+     "name": "Fabienne KÖNIGSTEIN",
+     "status": "out",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": 23,
+     "countryPos": 3,
+     "score": 1128,
+     "result": null,
+     "wrPlace": 72,
+     "label": null,
+     "gap": -43,
+     "where": null
+    },
+    {
+     "name": "Mia JURENKA",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 4,
+     "score": 1104,
+     "result": null,
+     "wrPlace": 116,
+     "label": null,
+     "gap": -67,
+     "where": null
+    },
+    {
+     "name": "Pia SCHLATTMANN",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 5,
+     "score": 1104,
+     "result": null,
+     "wrPlace": 117,
+     "label": null,
+     "gap": -67,
+     "where": null
+    },
+    {
+     "name": "Carolina SCHÄFER",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 6,
+     "score": 1087,
+     "result": null,
+     "wrPlace": 158,
+     "label": null,
+     "gap": -84,
+     "where": null
+    },
+    {
+     "name": "Hannah STEGENWALLNER",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 7,
+     "score": 1087,
+     "result": null,
+     "wrPlace": 159,
+     "label": null,
+     "gap": -84,
+     "where": null
+    },
+    {
+     "name": "Kiara NAHEN",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 8,
+     "score": 1084,
+     "result": null,
+     "wrPlace": 165,
+     "label": null,
+     "gap": -87,
+     "where": null
+    },
+    {
+     "name": "Lotte MEYBERG",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 9,
+     "score": 1073,
+     "result": null,
+     "wrPlace": 190,
+     "label": null,
+     "gap": -98,
+     "where": null
+    },
+    {
+     "name": "Jette BEERMANN",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 10,
+     "score": 1048,
+     "result": null,
+     "wrPlace": 252,
+     "label": null,
+     "gap": -123,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 46,
+     "name": "Konstanze KLOSTERHALFEN",
+     "score": 1184
+    },
+    {
+     "place": 59,
+     "name": "Elena BURKARD",
+     "score": 1175
+    },
+    {
+     "place": 73,
+     "name": "Blanka DÖRFEL",
+     "score": 1166
+    },
+    {
+     "place": 146,
+     "name": "Alina REH",
+     "score": 1125
+    },
+    {
+     "place": 193,
+     "name": "Kira WEIS",
+     "score": 1112
+    }
+   ],
+   "nations": [
+    {
+     "nat": "KEN",
+     "in": 4,
+     "blocked": 5
+    },
+    {
+     "nat": "USA",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "ITA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "JPN",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "UGA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "AUS",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "BEL",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "CHN",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "10000m",
+   "sex": "men",
+   "label": "10.000 m",
+   "eventId": 10229610,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229610",
+   "fieldSize": 27,
+   "standard": "26:48,00",
+   "window": "23 FEB 2026 – 22 AUG 2027",
+   "assigned": 27,
+   "paths": {
+    "wildcard": 1,
+    "ranking": 26
+   },
+   "cutScore": 1145,
+   "listLength": 242,
+   "blocked": 15,
+   "athletes": [
+    {
+     "name": "Davor Aaron BIENENFELD",
+     "status": "out",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": 21,
+     "countryPos": 1,
+     "score": 1110,
+     "result": null,
+     "wrPlace": 99,
+     "label": null,
+     "gap": -35,
+     "where": null
+    },
+    {
+     "name": "Jona BODIRSKY",
+     "status": "out",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": 53,
+     "countryPos": 2,
+     "score": 1055,
+     "result": null,
+     "wrPlace": 230,
+     "label": null,
+     "gap": -90,
+     "where": null
+    },
+    {
+     "name": "Nick JÄGER",
+     "status": "out",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": 54,
+     "countryPos": 3,
+     "score": 1055,
+     "result": null,
+     "wrPlace": 234,
+     "label": null,
+     "gap": -90,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 8,
+     "name": "Mohamed ABDILAAHI",
+     "score": 1232
+    },
+    {
+     "place": 92,
+     "name": "Nils VOIGT",
+     "score": 1147
+    },
+    {
+     "place": 247,
+     "name": "Johannes MOTSCHMANN",
+     "score": 1097
+    },
+    {
+     "place": 334,
+     "name": "Tom FÖRSTER",
+     "score": 1077
+    },
+    {
+     "place": 371,
+     "name": "Markus GÖRGER",
+     "score": 1072
+    }
+   ],
+   "nations": [
+    {
+     "nat": "KEN",
+     "in": 3,
+     "blocked": 15
+    },
+    {
+     "nat": "FRA",
+     "in": 4,
+     "blocked": 0
+    },
+    {
+     "nat": "ETH",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "GBR",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "ITA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "UGA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "USA",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "AUS",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "3000msc",
+   "sex": "women",
+   "label": "3000 m Hindernis",
+   "eventId": 10229524,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229524",
+   "fieldSize": 36,
+   "standard": "9:06,50",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 30,
+   "paths": {
+    "wildcard": 1,
+    "norm": 5,
+    "ranking": 23,
+    "kontinent": 1
+   },
+   "cutScore": 941,
+   "listLength": 33,
+   "blocked": 2,
+   "athletes": [
+    {
+     "name": "Gesa Felicitas KRAUSE",
+     "status": "in",
+     "path": "ranking",
+     "pos": 8,
+     "wait": null,
+     "countryPos": 1,
+     "score": 1303,
+     "result": null,
+     "wrPlace": 7,
+     "label": "European Champion",
+     "gap": 362,
+     "where": null
+    },
+    {
+     "name": "Lea MEYER",
+     "status": "in",
+     "path": "ranking",
+     "pos": 10,
+     "wait": null,
+     "countryPos": 2,
+     "score": 1268,
+     "result": null,
+     "wrPlace": 10,
+     "label": null,
+     "gap": 327,
+     "where": null
+    },
+    {
+     "name": "Olivia GÜRTH",
+     "status": "in",
+     "path": "ranking",
+     "pos": 11,
+     "wait": null,
+     "countryPos": 3,
+     "score": 1261,
+     "result": null,
+     "wrPlace": 11,
+     "label": null,
+     "gap": 320,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 57,
+     "name": "Adia BUDDE",
+     "score": 1177
+    },
+    {
+     "place": 81,
+     "name": "Jule Jutta LINDNER",
+     "score": 1138
+    },
+    {
+     "place": 91,
+     "name": "Carolin HINRICHS",
+     "score": 1126
+    },
+    {
+     "place": 104,
+     "name": "Constanze PAOLI",
+     "score": 1119
+    },
+    {
+     "place": 218,
+     "name": "Agnes Thurid GERS",
+     "score": 1060
+    }
+   ],
+   "nations": [
+    {
+     "nat": "IND",
+     "in": 3,
+     "blocked": 2
+    },
+    {
+     "nat": "FRA",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "GER",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "POL",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "KEN",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "TUN",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "AUS",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "BRA",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "3000msc",
+   "sex": "men",
+   "label": "3000 m Hindernis",
+   "eventId": 10229614,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229614",
+   "fieldSize": 36,
+   "standard": "8:08,00",
+   "window": "23 AUG 2026 – 22 AUG 2027",
+   "assigned": 27,
+   "paths": {
+    "wildcard": 1,
+    "norm": 5,
+    "ranking": 21
+   },
+   "cutScore": 970,
+   "listLength": 31,
+   "blocked": 0,
+   "athletes": [
+    {
+     "name": "Karl BEBENDORF",
+     "status": "in",
+     "path": "ranking",
+     "pos": 10,
+     "wait": null,
+     "countryPos": 1,
+     "score": 1234,
+     "result": null,
+     "wrPlace": 9,
+     "label": null,
+     "gap": 264,
+     "where": null
+    },
+    {
+     "name": "Frederik RUPPERT",
+     "status": "in",
+     "path": "ranking",
+     "pos": 12,
+     "wait": null,
+     "countryPos": 2,
+     "score": 1187,
+     "result": null,
+     "wrPlace": 11,
+     "label": "European Champion",
+     "gap": 217,
+     "where": null
+    },
+    {
+     "name": "Niklas BUCHHOLZ",
+     "status": "in",
+     "path": "ranking",
+     "pos": 16,
+     "wait": null,
+     "countryPos": 3,
+     "score": 1164,
+     "result": null,
+     "wrPlace": 15,
+     "label": null,
+     "gap": 194,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 65,
+     "name": "Robin MÜLLER",
+     "score": 1157
+    },
+    {
+     "place": 84,
+     "name": "Brian WEISHEIT",
+     "score": 1134
+    },
+    {
+     "place": 87,
+     "name": "Velten SCHNEIDER",
+     "score": 1131
+    },
+    {
+     "place": 95,
+     "name": "Silas ZAHLTEN",
+     "score": 1126
+    },
+    {
+     "place": 143,
+     "name": "Kurt LAUER",
+     "score": 1093
+    }
+   ],
+   "nations": [
+    {
+     "nat": "GER",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "IND",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "MAR",
+     "in": 3,
+     "blocked": 0
+    },
+    {
+     "nat": "ESP",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "ETH",
+     "in": 2,
+     "blocked": 0
+    },
+    {
+     "nat": "AND",
+     "in": 1,
+     "blocked": 0
+    },
+    {
+     "nat": "BEL",
+     "in": 1,
+     "blocked": 0
+    }
+   ]
+  },
+  {
+   "slug": "marathon",
+   "sex": "women",
+   "label": "Marathon",
+   "eventId": 10229534,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229534",
+   "fieldSize": 100,
+   "standard": "2:23:20",
+   "window": "03 NOV 2025 – 02 MAY 2027",
+   "assigned": 100,
+   "paths": {
+    "wildcard": 1,
+    "norm": 22,
+    "label": 2,
+    "ranking": 75
+   },
+   "cutScore": 1053,
+   "listLength": 689,
+   "blocked": 356,
+   "athletes": [
+    {
+     "name": "Blanka DÖRFEL",
+     "status": "in",
+     "path": "norm",
+     "pos": 13,
+     "wait": null,
+     "countryPos": 1,
+     "score": null,
+     "result": "2:20:46",
+     "wrPlace": null,
+     "label": null,
+     "gap": null,
+     "where": "Frankfurt (GER), 25 OCT 2026"
+    },
+    {
+     "name": "Domenika MAYER",
+     "status": "in",
+     "path": "norm",
+     "pos": 16,
+     "wait": null,
+     "countryPos": 2,
+     "score": null,
+     "result": "2:21:26",
+     "wrPlace": null,
+     "label": null,
+     "gap": null,
+     "where": "Friedrichswall, Hannover (GER), 12 APR 2026"
+    },
+    {
+     "name": "Fabienne KÖNIGSTEIN",
+     "status": "in",
+     "path": "ranking",
+     "pos": 48,
+     "wait": null,
+     "countryPos": 3,
+     "score": 1152,
+     "result": null,
+     "wrPlace": 169,
+     "label": null,
+     "gap": 99,
+     "where": null
+    },
+    {
+     "name": "Anna LANGERWISCH",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 4,
+     "score": 1126,
+     "result": null,
+     "wrPlace": 260,
+     "label": null,
+     "gap": 73,
+     "where": null
+    },
+    {
+     "name": "Nina REUTER",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 5,
+     "score": 1114,
+     "result": null,
+     "wrPlace": 301,
+     "label": null,
+     "gap": 61,
+     "where": null
+    },
+    {
+     "name": "Kristina HENDEL",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 6,
+     "score": 1097,
+     "result": null,
+     "wrPlace": 351,
+     "label": null,
+     "gap": 44,
+     "where": null
+    },
+    {
+     "name": "Jana SOETHOUT",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 7,
+     "score": 1095,
+     "result": null,
+     "wrPlace": 362,
+     "label": null,
+     "gap": 42,
+     "where": null
+    },
+    {
+     "name": "Katharina SAATHOFF",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 8,
+     "score": 1092,
+     "result": null,
+     "wrPlace": 366,
+     "label": null,
+     "gap": 39,
+     "where": null
+    },
+    {
+     "name": "Tabea THEMANN",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 9,
+     "score": 1084,
+     "result": null,
+     "wrPlace": 399,
+     "label": null,
+     "gap": 31,
+     "where": null
+    },
+    {
+     "name": "Lisa HUWATSCHECK",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 10,
+     "score": 1074,
+     "result": null,
+     "wrPlace": 430,
+     "label": null,
+     "gap": 21,
+     "where": null
+    },
+    {
+     "name": "Laura HOTTENROTT",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 11,
+     "score": 1073,
+     "result": null,
+     "wrPlace": 433,
+     "label": null,
+     "gap": 20,
+     "where": null
+    },
+    {
+     "name": "Deborah SCHÖNEBORN",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 12,
+     "score": 1061,
+     "result": null,
+     "wrPlace": 466,
+     "label": null,
+     "gap": 8,
+     "where": null
+    },
+    {
+     "name": "Thea HEIM",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 13,
+     "score": 1057,
+     "result": null,
+     "wrPlace": 479,
+     "label": null,
+     "gap": 4,
+     "where": null
+    },
+    {
+     "name": "Jule VETTER",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 14,
+     "score": 1047,
+     "result": null,
+     "wrPlace": 525,
+     "label": null,
+     "gap": -6,
+     "where": null
+    },
+    {
+     "name": "Hanna GRÖBER",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 15,
+     "score": 1045,
+     "result": null,
+     "wrPlace": 531,
+     "label": null,
+     "gap": -8,
+     "where": null
+    },
+    {
+     "name": "Kirsten DE BAEY",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 16,
+     "score": 1036,
+     "result": null,
+     "wrPlace": 572,
+     "label": null,
+     "gap": -17,
+     "where": null
+    },
+    {
+     "name": "Katja FISCHER",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 17,
+     "score": 998,
+     "result": null,
+     "wrPlace": 727,
+     "label": null,
+     "gap": -55,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 298,
+     "name": "Kiara NAHEN",
+     "score": 1135
+    },
+    {
+     "place": 486,
+     "name": "Melina WOLF",
+     "score": 1090
+    }
+   ],
+   "nations": [
+    {
+     "nat": "ETH",
+     "in": 3,
+     "blocked": 125
+    },
+    {
+     "nat": "KEN",
+     "in": 4,
+     "blocked": 82
+    },
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 41
+    },
+    {
+     "nat": "USA",
+     "in": 3,
+     "blocked": 41
+    },
+    {
+     "nat": "CHN",
+     "in": 3,
+     "blocked": 39
+    },
+    {
+     "nat": "GER",
+     "in": 3,
+     "blocked": 10
+    },
+    {
+     "nat": "AUS",
+     "in": 3,
+     "blocked": 9
+    },
+    {
+     "nat": "GBR",
+     "in": 3,
+     "blocked": 9
+    }
+   ]
+  },
+  {
+   "slug": "marathon",
+   "sex": "men",
+   "label": "Marathon",
+   "eventId": 10229634,
+   "url": "https://worldathletics.org/stats-zone/road-to/7216591?eventId=10229634",
+   "fieldSize": 100,
+   "standard": "2:06:00",
+   "window": "03 NOV 2025 – 02 MAY 2027",
+   "assigned": 100,
+   "paths": {
+    "wildcard": 1,
+    "norm": 27,
+    "label": 2,
+    "ranking": 70
+   },
+   "cutScore": 1078,
+   "listLength": 717,
+   "blocked": 388,
+   "athletes": [
+    {
+     "name": "Amanal PETROS",
+     "status": "in",
+     "path": "norm",
+     "pos": 10,
+     "wait": null,
+     "countryPos": 1,
+     "score": null,
+     "result": "2:04:03",
+     "wrPlace": null,
+     "label": null,
+     "gap": null,
+     "where": "Valencia (ESP), 07 DEC 2025"
+    },
+    {
+     "name": "Samuel FITWI SIBHATU",
+     "status": "in",
+     "path": "ranking",
+     "pos": 34,
+     "wait": null,
+     "countryPos": 2,
+     "score": 1214,
+     "result": null,
+     "wrPlace": 69,
+     "label": null,
+     "gap": 136,
+     "where": null
+    },
+    {
+     "name": "Richard RINGER",
+     "status": "in",
+     "path": "ranking",
+     "pos": 40,
+     "wait": null,
+     "countryPos": 3,
+     "score": 1195,
+     "result": null,
+     "wrPlace": 93,
+     "label": null,
+     "gap": 117,
+     "where": null
+    },
+    {
+     "name": "Hendrik PFEIFFER",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 4,
+     "score": 1191,
+     "result": null,
+     "wrPlace": 97,
+     "label": null,
+     "gap": 113,
+     "where": null
+    },
+    {
+     "name": "Haftom WELDAY",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 5,
+     "score": 1161,
+     "result": null,
+     "wrPlace": 178,
+     "label": null,
+     "gap": 83,
+     "where": null
+    },
+    {
+     "name": "Davor Aaron BIENENFELD",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 6,
+     "score": 1147,
+     "result": null,
+     "wrPlace": 223,
+     "label": null,
+     "gap": 69,
+     "where": null
+    },
+    {
+     "name": "Simon BOCH",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 7,
+     "score": 1114,
+     "result": null,
+     "wrPlace": 354,
+     "label": null,
+     "gap": 36,
+     "where": null
+    },
+    {
+     "name": "Erik HILLE",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 8,
+     "score": 1102,
+     "result": null,
+     "wrPlace": 407,
+     "label": null,
+     "gap": 24,
+     "where": null
+    },
+    {
+     "name": "Tom THURLEY",
+     "status": "limit",
+     "path": "ranking",
+     "pos": null,
+     "wait": null,
+     "countryPos": 9,
+     "score": 1085,
+     "result": null,
+     "wrPlace": 481,
+     "label": null,
+     "gap": 7,
+     "where": null
+    },
+    {
+     "name": "Jan Lukas BECKER",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 10,
+     "score": 1036,
+     "result": null,
+     "wrPlace": 680,
+     "label": null,
+     "gap": -42,
+     "where": null
+    },
+    {
+     "name": "Jakob LANGE",
+     "status": "limit",
+     "path": "nachruecker",
+     "pos": null,
+     "wait": null,
+     "countryPos": 11,
+     "score": 1036,
+     "result": null,
+     "wrPlace": 681,
+     "label": null,
+     "gap": -42,
+     "where": null
+    }
+   ],
+   "notYet": [
+    {
+     "place": 421,
+     "name": "Johannes MOTSCHMANN",
+     "score": 1126
+    },
+    {
+     "place": 426,
+     "name": "Nils VOIGT",
+     "score": 1124
+    }
+   ],
+   "nations": [
+    {
+     "nat": "KEN",
+     "in": 3,
+     "blocked": 120
+    },
+    {
+     "nat": "ETH",
+     "in": 3,
+     "blocked": 101
+    },
+    {
+     "nat": "JPN",
+     "in": 3,
+     "blocked": 85
+    },
+    {
+     "nat": "USA",
+     "in": 3,
+     "blocked": 38
+    },
+    {
+     "nat": "CHN",
+     "in": 3,
+     "blocked": 25
+    },
+    {
+     "nat": "GBR",
+     "in": 3,
+     "blocked": 7
+    },
+    {
+     "nat": "ERI",
+     "in": 3,
+     "blocked": 6
+    },
+    {
+     "nat": "GER",
+     "in": 3,
+     "blocked": 6
+    }
+   ]
+  }
+ ],
+ "source": "https://worldathletics.org/stats-zone/road-to/7216591"
+}

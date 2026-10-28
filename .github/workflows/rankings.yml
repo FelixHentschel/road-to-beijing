@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # fest: Playwright 1.56 unterstützt ubuntu-latest (26.04) noch nicht
     outputs:
       changed: ${{ steps.data.outputs.changed }}
     steps:
@@ -83,7 +83,7 @@ jobs:
   deploy:
     needs: build
     if: needs.build.outputs.changed == 'true' || github.event_name != 'schedule'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # fest: Playwright 1.56 unterstützt ubuntu-latest (26.04) noch nicht
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

@@ -1,8 +1,8 @@
 {
- "fetched": "2026-10-28",
- "fingerprint": "2be6b18737809e69",
+ "fetched": "2026-10-29",
+ "fingerprint": "f6d12549198abf15",
  "germanInField": 15,
- "wrAsOf": "20 Oct 2026",
+ "wrAsOf": "27 Oct 2026",
  "maxPerNation": 3,
  "near": 10,
  "events": [
@@ -127,8 +127,8 @@
     "kontinent": 1
    },
    "cutScore": 858,
-   "listLength": 42,
-   "blocked": 7,
+   "listLength": 46,
+   "blocked": 11,
    "athletes": [],
    "notYet": [
     {
@@ -161,7 +161,7 @@
     {
      "nat": "JPN",
      "in": 3,
-     "blocked": 7
+     "blocked": 11
     },
     {
      "nat": "FRA",
@@ -305,7 +305,7 @@
     "ranking": 26
    },
    "cutScore": 877,
-   "listLength": 31,
+   "listLength": 32,
    "blocked": 0,
    "athletes": [
     {
@@ -409,8 +409,8 @@
     "ranking": 17
    },
    "cutScore": 823,
-   "listLength": 32,
-   "blocked": 5,
+   "listLength": 33,
+   "blocked": 6,
    "athletes": [],
    "notYet": [
     {
@@ -429,12 +429,12 @@
      "score": 1130
     },
     {
-     "place": 183,
+     "place": 184,
      "name": "Lotte MEYBERG",
      "score": 1098
     },
     {
-     "place": 282,
+     "place": 284,
      "name": "Carolina SCHÄFER",
      "score": 1069
     }
@@ -446,12 +446,12 @@
      "blocked": 3
     },
     {
-     "nat": "AUS",
+     "nat": "JPN",
      "in": 3,
-     "blocked": 1
+     "blocked": 2
     },
     {
-     "nat": "JPN",
+     "nat": "AUS",
      "in": 3,
      "blocked": 1
     },
@@ -608,11 +608,11 @@
      "status": "out",
      "path": "nachruecker",
      "pos": null,
-     "wait": 16,
+     "wait": 17,
      "countryPos": 2,
      "score": 1143,
      "result": null,
-     "wrPlace": 56,
+     "wrPlace": 57,
      "label": null,
      "gap": -28,
      "where": null
@@ -622,11 +622,11 @@
      "status": "out",
      "path": "nachruecker",
      "pos": null,
-     "wait": 23,
+     "wait": 24,
      "countryPos": 3,
      "score": 1128,
      "result": null,
-     "wrPlace": 72,
+     "wrPlace": 73,
      "label": null,
      "gap": -43,
      "where": null
@@ -640,7 +640,7 @@
      "countryPos": 4,
      "score": 1104,
      "result": null,
-     "wrPlace": 116,
+     "wrPlace": 117,
      "label": null,
      "gap": -67,
      "where": null
@@ -654,7 +654,7 @@
      "countryPos": 5,
      "score": 1104,
      "result": null,
-     "wrPlace": 117,
+     "wrPlace": 118,
      "label": null,
      "gap": -67,
      "where": null
@@ -668,7 +668,7 @@
      "countryPos": 6,
      "score": 1087,
      "result": null,
-     "wrPlace": 158,
+     "wrPlace": 159,
      "label": null,
      "gap": -84,
      "where": null
@@ -682,7 +682,7 @@
      "countryPos": 7,
      "score": 1087,
      "result": null,
-     "wrPlace": 159,
+     "wrPlace": 160,
      "label": null,
      "gap": -84,
      "where": null
@@ -724,7 +724,7 @@
      "countryPos": 10,
      "score": 1048,
      "result": null,
-     "wrPlace": 252,
+     "wrPlace": 253,
      "label": null,
      "gap": -123,
      "where": null
@@ -737,7 +737,7 @@
      "score": 1184
     },
     {
-     "place": 59,
+     "place": 58,
      "name": "Elena BURKARD",
      "score": 1175
     },
@@ -747,12 +747,12 @@
      "score": 1166
     },
     {
-     "place": 146,
+     "place": 145,
      "name": "Alina REH",
      "score": 1125
     },
     {
-     "place": 193,
+     "place": 190,
      "name": "Kira WEIS",
      "score": 1112
     }
@@ -841,7 +841,7 @@
      "countryPos": 2,
      "score": 1055,
      "result": null,
-     "wrPlace": 230,
+     "wrPlace": 233,
      "label": null,
      "gap": -90,
      "where": null
@@ -855,7 +855,7 @@
      "countryPos": 3,
      "score": 1055,
      "result": null,
-     "wrPlace": 234,
+     "wrPlace": 237,
      "label": null,
      "gap": -90,
      "where": null
@@ -863,27 +863,27 @@
    ],
    "notYet": [
     {
-     "place": 8,
+     "place": 7,
      "name": "Mohamed ABDILAAHI",
      "score": 1232
     },
     {
-     "place": 92,
+     "place": 89,
      "name": "Nils VOIGT",
      "score": 1147
     },
     {
-     "place": 247,
+     "place": 240,
      "name": "Johannes MOTSCHMANN",
      "score": 1097
     },
     {
-     "place": 334,
+     "place": 329,
      "name": "Tom FÖRSTER",
      "score": 1077
     },
     {
-     "place": 371,
+     "place": 365,
      "name": "Markus GÖRGER",
      "score": 1072
     }
@@ -940,15 +940,15 @@
    "fieldSize": 36,
    "standard": "9:06,50",
    "window": "23 AUG 2026 – 22 AUG 2027",
-   "assigned": 30,
+   "assigned": 31,
    "paths": {
     "wildcard": 1,
     "norm": 5,
-    "ranking": 23,
+    "ranking": 24,
     "kontinent": 1
    },
    "cutScore": 941,
-   "listLength": 33,
+   "listLength": 34,
    "blocked": 2,
    "athletes": [
     {
@@ -1080,7 +1080,7 @@
     "ranking": 21
    },
    "cutScore": 970,
-   "listLength": 31,
+   "listLength": 32,
    "blocked": 0,
    "athletes": [
     {
@@ -1212,9 +1212,9 @@
     "label": 2,
     "ranking": 75
    },
-   "cutScore": 1053,
-   "listLength": 689,
-   "blocked": 356,
+   "cutScore": 1058,
+   "listLength": 695,
+   "blocked": 361,
    "athletes": [
     {
      "name": "Blanka DÖRFEL",
@@ -1248,14 +1248,14 @@
      "name": "Fabienne KÖNIGSTEIN",
      "status": "in",
      "path": "ranking",
-     "pos": 48,
+     "pos": 49,
      "wait": null,
      "countryPos": 3,
      "score": 1152,
      "result": null,
-     "wrPlace": 169,
+     "wrPlace": 184,
      "label": null,
-     "gap": 99,
+     "gap": 94,
      "where": null
     },
     {
@@ -1267,9 +1267,9 @@
      "countryPos": 4,
      "score": 1126,
      "result": null,
-     "wrPlace": 260,
+     "wrPlace": 278,
      "label": null,
-     "gap": 73,
+     "gap": 68,
      "where": null
     },
     {
@@ -1281,9 +1281,9 @@
      "countryPos": 5,
      "score": 1114,
      "result": null,
-     "wrPlace": 301,
+     "wrPlace": 321,
      "label": null,
-     "gap": 61,
+     "gap": 56,
      "where": null
     },
     {
@@ -1295,9 +1295,9 @@
      "countryPos": 6,
      "score": 1097,
      "result": null,
-     "wrPlace": 351,
+     "wrPlace": 375,
      "label": null,
-     "gap": 44,
+     "gap": 39,
      "where": null
     },
     {
@@ -1309,9 +1309,9 @@
      "countryPos": 7,
      "score": 1095,
      "result": null,
-     "wrPlace": 362,
+     "wrPlace": 385,
      "label": null,
-     "gap": 42,
+     "gap": 37,
      "where": null
     },
     {
@@ -1323,9 +1323,9 @@
      "countryPos": 8,
      "score": 1092,
      "result": null,
-     "wrPlace": 366,
+     "wrPlace": 389,
      "label": null,
-     "gap": 39,
+     "gap": 34,
      "where": null
     },
     {
@@ -1337,9 +1337,9 @@
      "countryPos": 9,
      "score": 1084,
      "result": null,
-     "wrPlace": 399,
+     "wrPlace": 422,
      "label": null,
-     "gap": 31,
+     "gap": 26,
      "where": null
     },
     {
@@ -1351,9 +1351,9 @@
      "countryPos": 10,
      "score": 1074,
      "result": null,
-     "wrPlace": 430,
+     "wrPlace": 453,
      "label": null,
-     "gap": 21,
+     "gap": 16,
      "where": null
     },
     {
@@ -1365,9 +1365,9 @@
      "countryPos": 11,
      "score": 1073,
      "result": null,
-     "wrPlace": 433,
+     "wrPlace": 456,
      "label": null,
-     "gap": 20,
+     "gap": 15,
      "where": null
     },
     {
@@ -1379,23 +1379,23 @@
      "countryPos": 12,
      "score": 1061,
      "result": null,
-     "wrPlace": 466,
+     "wrPlace": 491,
      "label": null,
-     "gap": 8,
+     "gap": 3,
      "where": null
     },
     {
      "name": "Thea HEIM",
      "status": "limit",
-     "path": "ranking",
+     "path": "nachruecker",
      "pos": null,
      "wait": null,
      "countryPos": 13,
      "score": 1057,
      "result": null,
-     "wrPlace": 479,
+     "wrPlace": 508,
      "label": null,
-     "gap": 4,
+     "gap": -1,
      "where": null
     },
     {
@@ -1407,9 +1407,9 @@
      "countryPos": 14,
      "score": 1047,
      "result": null,
-     "wrPlace": 525,
+     "wrPlace": 555,
      "label": null,
-     "gap": -6,
+     "gap": -11,
      "where": null
     },
     {
@@ -1421,9 +1421,9 @@
      "countryPos": 15,
      "score": 1045,
      "result": null,
-     "wrPlace": 531,
+     "wrPlace": 564,
      "label": null,
-     "gap": -8,
+     "gap": -13,
      "where": null
     },
     {
@@ -1435,34 +1435,34 @@
      "countryPos": 16,
      "score": 1036,
      "result": null,
-     "wrPlace": 572,
+     "wrPlace": 611,
      "label": null,
-     "gap": -17,
+     "gap": -22,
      "where": null
     },
     {
-     "name": "Katja FISCHER",
+     "name": "Stella WERNICKE",
      "status": "limit",
      "path": "nachruecker",
      "pos": null,
      "wait": null,
      "countryPos": 17,
-     "score": 998,
+     "score": 1006,
      "result": null,
-     "wrPlace": 727,
+     "wrPlace": 737,
      "label": null,
-     "gap": -55,
+     "gap": -52,
      "where": null
     }
    ],
    "notYet": [
     {
-     "place": 298,
+     "place": 301,
      "name": "Kiara NAHEN",
      "score": 1135
     },
     {
-     "place": 486,
+     "place": 489,
      "name": "Melina WOLF",
      "score": 1090
     }
@@ -1471,22 +1471,17 @@
     {
      "nat": "ETH",
      "in": 3,
-     "blocked": 125
+     "blocked": 132
     },
     {
      "nat": "KEN",
      "in": 4,
-     "blocked": 82
+     "blocked": 87
     },
     {
      "nat": "JPN",
      "in": 3,
-     "blocked": 41
-    },
-    {
-     "nat": "USA",
-     "in": 3,
-     "blocked": 41
+     "blocked": 40
     },
     {
      "nat": "CHN",
@@ -1494,19 +1489,24 @@
      "blocked": 39
     },
     {
+     "nat": "USA",
+     "in": 3,
+     "blocked": 38
+    },
+    {
      "nat": "GER",
      "in": 3,
-     "blocked": 10
+     "blocked": 9
     },
     {
      "nat": "AUS",
      "in": 3,
-     "blocked": 9
+     "blocked": 8
     },
     {
      "nat": "GBR",
      "in": 3,
-     "blocked": 9
+     "blocked": 8
     }
    ]
   },
@@ -1526,9 +1526,9 @@
     "label": 2,
     "ranking": 70
    },
-   "cutScore": 1078,
-   "listLength": 717,
-   "blocked": 388,
+   "cutScore": 1093,
+   "listLength": 684,
+   "blocked": 355,
    "athletes": [
     {
      "name": "Amanal PETROS",
@@ -1545,31 +1545,31 @@
      "where": "Valencia (ESP), 07 DEC 2025"
     },
     {
-     "name": "Samuel FITWI SIBHATU",
+     "name": "Richard RINGER",
      "status": "in",
      "path": "ranking",
      "pos": 34,
      "wait": null,
      "countryPos": 2,
-     "score": 1214,
+     "score": 1221,
      "result": null,
-     "wrPlace": 69,
+     "wrPlace": 61,
      "label": null,
-     "gap": 136,
+     "gap": 128,
      "where": null
     },
     {
-     "name": "Richard RINGER",
+     "name": "Samuel FITWI SIBHATU",
      "status": "in",
      "path": "ranking",
-     "pos": 40,
+     "pos": 36,
      "wait": null,
      "countryPos": 3,
-     "score": 1195,
+     "score": 1214,
      "result": null,
-     "wrPlace": 93,
+     "wrPlace": 74,
      "label": null,
-     "gap": 117,
+     "gap": 121,
      "where": null
     },
     {
@@ -1581,9 +1581,9 @@
      "countryPos": 4,
      "score": 1191,
      "result": null,
-     "wrPlace": 97,
+     "wrPlace": 102,
      "label": null,
-     "gap": 113,
+     "gap": 98,
      "where": null
     },
     {
@@ -1595,9 +1595,9 @@
      "countryPos": 5,
      "score": 1161,
      "result": null,
-     "wrPlace": 178,
+     "wrPlace": 187,
      "label": null,
-     "gap": 83,
+     "gap": 68,
      "where": null
     },
     {
@@ -1609,9 +1609,9 @@
      "countryPos": 6,
      "score": 1147,
      "result": null,
-     "wrPlace": 223,
+     "wrPlace": 237,
      "label": null,
-     "gap": 69,
+     "gap": 54,
      "where": null
     },
     {
@@ -1623,9 +1623,9 @@
      "countryPos": 7,
      "score": 1114,
      "result": null,
-     "wrPlace": 354,
+     "wrPlace": 377,
      "label": null,
-     "gap": 36,
+     "gap": 21,
      "where": null
     },
     {
@@ -1637,62 +1637,34 @@
      "countryPos": 8,
      "score": 1102,
      "result": null,
-     "wrPlace": 407,
+     "wrPlace": 434,
      "label": null,
-     "gap": 24,
+     "gap": 9,
      "where": null
     },
     {
      "name": "Tom THURLEY",
      "status": "limit",
-     "path": "ranking",
+     "path": "nachruecker",
      "pos": null,
      "wait": null,
      "countryPos": 9,
      "score": 1085,
      "result": null,
-     "wrPlace": 481,
+     "wrPlace": 519,
      "label": null,
-     "gap": 7,
-     "where": null
-    },
-    {
-     "name": "Jan Lukas BECKER",
-     "status": "limit",
-     "path": "nachruecker",
-     "pos": null,
-     "wait": null,
-     "countryPos": 10,
-     "score": 1036,
-     "result": null,
-     "wrPlace": 680,
-     "label": null,
-     "gap": -42,
-     "where": null
-    },
-    {
-     "name": "Jakob LANGE",
-     "status": "limit",
-     "path": "nachruecker",
-     "pos": null,
-     "wait": null,
-     "countryPos": 11,
-     "score": 1036,
-     "result": null,
-     "wrPlace": 681,
-     "label": null,
-     "gap": -42,
+     "gap": -8,
      "where": null
     }
    ],
    "notYet": [
     {
-     "place": 421,
+     "place": 426,
      "name": "Johannes MOTSCHMANN",
      "score": 1126
     },
     {
-     "place": 426,
+     "place": 431,
      "name": "Nils VOIGT",
      "score": 1124
     }
@@ -1701,32 +1673,27 @@
     {
      "nat": "KEN",
      "in": 3,
-     "blocked": 120
+     "blocked": 121
     },
     {
      "nat": "ETH",
      "in": 3,
-     "blocked": 101
+     "blocked": 100
     },
     {
      "nat": "JPN",
      "in": 3,
-     "blocked": 85
+     "blocked": 72
     },
     {
      "nat": "USA",
      "in": 3,
-     "blocked": 38
+     "blocked": 27
     },
     {
      "nat": "CHN",
      "in": 3,
-     "blocked": 25
-    },
-    {
-     "nat": "GBR",
-     "in": 3,
-     "blocked": 7
+     "blocked": 19
     },
     {
      "nat": "ERI",
@@ -1734,9 +1701,14 @@
      "blocked": 6
     },
     {
+     "nat": "GBR",
+     "in": 3,
+     "blocked": 5
+    },
+    {
      "nat": "GER",
      "in": 3,
-     "blocked": 6
+     "blocked": 5
     }
    ]
   }

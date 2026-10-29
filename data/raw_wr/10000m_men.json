@@ -1,48 +1,48 @@
 {
- "asOf": "20 Oct 2026",
+ "asOf": "27 Oct 2026",
  "athletes": [
   {
-   "place": 8,
+   "place": 7,
    "name": "Mohamed ABDILAAHI",
    "score": 1232
   },
   {
-   "place": 92,
+   "place": 89,
    "name": "Nils VOIGT",
    "score": 1147
   },
   {
-   "place": 206,
+   "place": 200,
    "name": "Davor Aaron BIENENFELD",
    "score": 1110
   },
   {
-   "place": 247,
+   "place": 240,
    "name": "Johannes MOTSCHMANN",
    "score": 1097
   },
   {
-   "place": 334,
+   "place": 329,
    "name": "Tom FÖRSTER",
    "score": 1077
   },
   {
-   "place": 371,
+   "place": 365,
    "name": "Markus GÖRGER",
    "score": 1072
   },
   {
-   "place": 465,
+   "place": 459,
    "name": "Lukas EHRLE",
    "score": 1059
   },
   {
-   "place": 495,
+   "place": 487,
    "name": "Jona BODIRSKY",
    "score": 1055
   },
   {
-   "place": 500,
+   "place": 493,
    "name": "Nick JÄGER",
    "score": 1055
   }

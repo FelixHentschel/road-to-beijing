@@ -1,8 +1,8 @@
 {
- "asOf": "20 Oct 2026",
+ "asOf": "27 Oct 2026",
  "athletes": [
   {
-   "place": 64,
+   "place": 66,
    "name": "Domenika MAYER",
    "score": 1225
   },
@@ -12,42 +12,47 @@
    "score": 1218
   },
   {
-   "place": 266,
-   "name": "Laura HOTTENROTT",
-   "score": 1142
+   "place": 107,
+   "name": "Blanka DÖRFEL",
+   "score": 1199
   },
   {
-   "place": 298,
+   "place": 301,
    "name": "Kiara NAHEN",
    "score": 1135
   },
   {
-   "place": 337,
+   "place": 340,
    "name": "Anna LANGERWISCH",
    "score": 1126
   },
   {
-   "place": 377,
+   "place": 361,
+   "name": "Laura HOTTENROTT",
+   "score": 1119
+  },
+  {
+   "place": 380,
    "name": "Nina REUTER",
    "score": 1116
   },
   {
-   "place": 432,
+   "place": 436,
    "name": "Katharina SAATHOFF",
    "score": 1102
   },
   {
-   "place": 452,
+   "place": 457,
    "name": "Kristina HENDEL",
    "score": 1097
   },
   {
-   "place": 462,
+   "place": 466,
    "name": "Jana SOETHOUT",
    "score": 1096
   },
   {
-   "place": 486,
+   "place": 489,
    "name": "Melina WOLF",
    "score": 1090
   }

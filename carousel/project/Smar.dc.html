@@ -16,7 +16,7 @@ body{margin:0}
 <div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; background: #0a0a0a; color: #f2f3f4; font-family: Futura, Jost, 'Century Gothic', sans-serif; display: flex; flex-direction: column; gap: 40px">
 <div style="display: flex; justify-content: space-between; align-items: center">
 <div style="font-weight: 800; font-style: italic; color: #de1b1b; font-size: 26px; letter-spacing: 0.12em; text-transform: uppercase">Road to Beijing 27</div>
-<div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #9aa0a6">Stand 28.10.2026</div>
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #9aa0a6">Stand 29.10.2026</div>
 </div>
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; border-bottom: 4px solid #f2f3f4; padding-bottom: 24px">
 <h1 style="margin: 0; font-weight: 800; font-size: 118px; line-height: 0.85; text-transform: uppercase">Marathon</h1>
@@ -50,8 +50,8 @@ renderVals() {
 const S = { in: ['Qualifiziert', '#de1b1b'], near: ['Nachrücker', '#f2f3f4'], limit: ['Nationen-Limit', '#6d7278'], out: ['Außerhalb', '#6d7278'], none: ['Offen', '#6d7278'] };
 const row = (place, name, detail, st) => ({ place, name, detail, label: S[st][0], color: S[st][1] });
 return { groups: [
-{ sex: 'Frauen', norm: '2:23:20', rows: [row('13', 'Blanka Dörfel', 'Norm: 2:20:46', 'in'), row('16', 'Domenika Mayer', 'Norm: 2:21:26', 'in'), row('48', 'Fabienne Königstein', '1152 Punkte, 99 Pkt. Puffer', 'in')] },
-{ sex: 'Männer', norm: '2:06:00', rows: [row('10', 'Amanal Petros', 'Norm: 2:04:03', 'in'), row('34', 'Samuel Fitwi Sibhatu', '1214 Punkte, 136 Pkt. Puffer', 'in'), row('40', 'Richard Ringer', '1195 Punkte, 117 Pkt. Puffer', 'in')] }
+{ sex: 'Frauen', norm: '2:23:20', rows: [row('13', 'Blanka Dörfel', 'Norm: 2:20:46', 'in'), row('16', 'Domenika Mayer', 'Norm: 2:21:26', 'in'), row('49', 'Fabienne Königstein', '1152 Punkte, 94 Pkt. Puffer', 'in')] },
+{ sex: 'Männer', norm: '2:06:00', rows: [row('10', 'Amanal Petros', 'Norm: 2:04:03', 'in'), row('34', 'Richard Ringer', '1221 Punkte, 128 Pkt. Puffer', 'in'), row('36', 'Samuel Fitwi Sibhatu', '1214 Punkte, 121 Pkt. Puffer', 'in')] }
 ] };
 }
 }

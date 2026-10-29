@@ -16,7 +16,7 @@ body{margin:0}
 <div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; background: #0a0a0a; color: #f2f3f4; font-family: Futura, Jost, 'Century Gothic', sans-serif; display: flex; flex-direction: column; gap: 40px">
 <div style="display: flex; justify-content: space-between; align-items: center">
 <div style="font-weight: 800; font-style: italic; color: #de1b1b; font-size: 26px; letter-spacing: 0.12em; text-transform: uppercase">Road to Beijing 27</div>
-<div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #9aa0a6">Stand 28.10.2026</div>
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #9aa0a6">Stand 29.10.2026</div>
 </div>
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; border-bottom: 4px solid #f2f3f4; padding-bottom: 24px">
 <h1 style="margin: 0; font-weight: 800; font-size: 130px; line-height: 0.85; text-transform: uppercase">10.000 m</h1>
@@ -50,7 +50,7 @@ renderVals() {
 const S = { in: ['Qualifiziert', '#de1b1b'], near: ['Nachrücker', '#f2f3f4'], limit: ['Nationen-Limit', '#6d7278'], out: ['Außerhalb', '#6d7278'], none: ['Offen', '#6d7278'] };
 const row = (place, name, detail, st) => ({ place, name, detail, label: S[st][0], color: S[st][1] });
 return { groups: [
-{ sex: 'Frauen', norm: '30:40,00', rows: [row('26', 'Lisa Merkel', '1171 Punkte, auf der Linie', 'in'), row('N16', 'Eva Dieterich', '1143 Punkte, 28 Pkt. bis zur Linie', 'out'), row('N23', 'Fabienne Königstein', '1128 Punkte, 43 Pkt. bis zur Linie', 'out')] },
+{ sex: 'Frauen', norm: '30:40,00', rows: [row('26', 'Lisa Merkel', '1171 Punkte, auf der Linie', 'in'), row('N17', 'Eva Dieterich', '1143 Punkte, 28 Pkt. bis zur Linie', 'out'), row('N24', 'Fabienne Königstein', '1128 Punkte, 43 Pkt. bis zur Linie', 'out')] },
 { sex: 'Männer', norm: '26:48,00', rows: [row('N21', 'Davor Aaron Bienenfeld', '1110 Punkte, 35 Pkt. bis zur Linie', 'out'), row('N53', 'Jona Bodirsky', '1055 Punkte, 90 Pkt. bis zur Linie', 'out'), row('N54', 'Nick Jäger', '1055 Punkte, 90 Pkt. bis zur Linie', 'out')] }
 ] };
 }

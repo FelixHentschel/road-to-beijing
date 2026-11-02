@@ -1,6 +1,6 @@
 {
- "fetched": "2026-10-29",
- "fingerprint": "f6d12549198abf15",
+ "fetched": "2026-11-02",
+ "fingerprint": "6842e85bc6d728cb",
  "germanInField": 15,
  "wrAsOf": "27 Oct 2026",
  "maxPerNation": 3,
@@ -1523,12 +1523,12 @@
    "paths": {
     "wildcard": 1,
     "norm": 27,
-    "label": 2,
-    "ranking": 70
+    "label": 5,
+    "ranking": 67
    },
-   "cutScore": 1093,
-   "listLength": 684,
-   "blocked": 355,
+   "cutScore": 1095,
+   "listLength": 677,
+   "blocked": 348,
    "athletes": [
     {
      "name": "Amanal PETROS",
@@ -1548,28 +1548,28 @@
      "name": "Richard RINGER",
      "status": "in",
      "path": "ranking",
-     "pos": 34,
+     "pos": 37,
      "wait": null,
      "countryPos": 2,
      "score": 1221,
      "result": null,
      "wrPlace": 61,
      "label": null,
-     "gap": 128,
+     "gap": 126,
      "where": null
     },
     {
      "name": "Samuel FITWI SIBHATU",
      "status": "in",
      "path": "ranking",
-     "pos": 36,
+     "pos": 39,
      "wait": null,
      "countryPos": 3,
      "score": 1214,
      "result": null,
      "wrPlace": 74,
      "label": null,
-     "gap": 121,
+     "gap": 119,
      "where": null
     },
     {
@@ -1583,7 +1583,7 @@
      "result": null,
      "wrPlace": 102,
      "label": null,
-     "gap": 98,
+     "gap": 96,
      "where": null
     },
     {
@@ -1597,7 +1597,7 @@
      "result": null,
      "wrPlace": 187,
      "label": null,
-     "gap": 68,
+     "gap": 66,
      "where": null
     },
     {
@@ -1611,7 +1611,7 @@
      "result": null,
      "wrPlace": 237,
      "label": null,
-     "gap": 54,
+     "gap": 52,
      "where": null
     },
     {
@@ -1625,7 +1625,7 @@
      "result": null,
      "wrPlace": 377,
      "label": null,
-     "gap": 21,
+     "gap": 19,
      "where": null
     },
     {
@@ -1639,7 +1639,7 @@
      "result": null,
      "wrPlace": 434,
      "label": null,
-     "gap": 9,
+     "gap": 7,
      "where": null
     },
     {
@@ -1653,7 +1653,7 @@
      "result": null,
      "wrPlace": 519,
      "label": null,
-     "gap": -8,
+     "gap": -10,
      "where": null
     }
    ],
@@ -1673,12 +1673,12 @@
     {
      "nat": "KEN",
      "in": 3,
-     "blocked": 121
+     "blocked": 118
     },
     {
      "nat": "ETH",
      "in": 3,
-     "blocked": 100
+     "blocked": 99
     },
     {
      "nat": "JPN",
@@ -1688,12 +1688,12 @@
     {
      "nat": "USA",
      "in": 3,
-     "blocked": 27
+     "blocked": 25
     },
     {
      "nat": "CHN",
      "in": 3,
-     "blocked": 19
+     "blocked": 18
     },
     {
      "nat": "ERI",

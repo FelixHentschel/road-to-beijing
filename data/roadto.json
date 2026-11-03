@@ -1,6 +1,6 @@
 {
- "fetched": "2026-11-02",
- "fingerprint": "6842e85bc6d728cb",
+ "fetched": "2026-11-03",
+ "fingerprint": "a41ef9f4ec90ce53",
  "germanInField": 15,
  "wrAsOf": "27 Oct 2026",
  "maxPerNation": 3,
@@ -1527,8 +1527,8 @@
     "ranking": 67
    },
    "cutScore": 1095,
-   "listLength": 677,
-   "blocked": 348,
+   "listLength": 678,
+   "blocked": 349,
    "athletes": [
     {
      "name": "Amanal PETROS",
@@ -1698,7 +1698,7 @@
     {
      "nat": "ERI",
      "in": 3,
-     "blocked": 6
+     "blocked": 7
     },
     {
      "nat": "GBR",

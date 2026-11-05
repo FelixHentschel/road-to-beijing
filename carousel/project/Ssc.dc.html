@@ -16,11 +16,11 @@ body{margin:0}
 <div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; background: #0a0a0a; color: #f2f3f4; font-family: Futura, Jost, 'Century Gothic', sans-serif; display: flex; flex-direction: column; gap: 40px">
 <div style="display: flex; justify-content: space-between; align-items: center">
 <div style="font-weight: 800; font-style: italic; color: #de1b1b; font-size: 26px; letter-spacing: 0.12em; text-transform: uppercase">Road to Beijing 27</div>
-<div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #9aa0a6">Stand 03.11.2026</div>
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; color: #9aa0a6">Stand 05.11.2026</div>
 </div>
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; border-bottom: 4px solid #f2f3f4; padding-bottom: 24px">
 <h1 style="margin: 0; font-weight: 800; font-size: 112px; line-height: 0.9; text-transform: uppercase"><span style="font-size: 56px; display: block">3000 m</span>Hindernis</h1>
-<div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; text-align: right; line-height: 1.5">WM-Feld<br><span style="font-size: 52px; color: #de1b1b">36</span><br>vergeben 31 / 27</div>
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; text-align: right; line-height: 1.5">WM-Feld<br><span style="font-size: 52px; color: #de1b1b">36</span><br>vergeben 32 / 27</div>
 </div>
 <sc-for list="{{groups}}" as="g" hint-placeholder-count="2">
 <div style="display: flex; flex-direction: column; gap: 4px">
@@ -51,7 +51,7 @@ const S = { in: ['Qualifiziert', '#de1b1b'], near: ['Nachrücker', '#f2f3f4'], l
 const row = (place, name, detail, st) => ({ place, name, detail, label: S[st][0], color: S[st][1] });
 return { groups: [
 { sex: 'Frauen', norm: '9:06,50', rows: [row('8', 'Gesa Felicitas Krause', '1303 Punkte, 362 Pkt. Puffer', 'in'), row('10', 'Lea Meyer', '1268 Punkte, 327 Pkt. Puffer', 'in'), row('11', 'Olivia Gürth', '1261 Punkte, 320 Pkt. Puffer', 'in')] },
-{ sex: 'Männer', norm: '8:08,00', rows: [row('10', 'Karl Bebendorf', '1234 Punkte, 264 Pkt. Puffer', 'in'), row('12', 'Frederik Ruppert', '1187 Punkte, 217 Pkt. Puffer', 'in'), row('16', 'Niklas Buchholz', '1164 Punkte, 194 Pkt. Puffer', 'in')] }
+{ sex: 'Männer', norm: '8:08,00', rows: [row('10', 'Karl Bebendorf', '1234 Punkte, 257 Pkt. Puffer', 'in'), row('12', 'Frederik Ruppert', '1187 Punkte, 210 Pkt. Puffer', 'in'), row('16', 'Niklas Buchholz', '1164 Punkte, 187 Pkt. Puffer', 'in')] }
 ] };
 }
 }

@@ -1,6 +1,6 @@
 {
- "fetched": "2026-11-05",
- "fingerprint": "5af45ce27e2fb7c3",
+ "fetched": "2026-11-09",
+ "fingerprint": "3acffb9b6ae4f952",
  "germanInField": 15,
  "wrAsOf": "03 Nov 2026",
  "maxPerNation": 3,
@@ -1203,8 +1203,8 @@
     "ranking": 75
    },
    "cutScore": 1058,
-   "listLength": 705,
-   "blocked": 370,
+   "listLength": 704,
+   "blocked": 369,
    "athletes": [
     {
      "name": "Blanka DÖRFEL",
@@ -1461,7 +1461,7 @@
     {
      "nat": "ETH",
      "in": 3,
-     "blocked": 136
+     "blocked": 135
     },
     {
      "nat": "KEN",

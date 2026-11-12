@@ -1,5 +1,5 @@
 {
- "asOf": "03 Nov 2026",
+ "asOf": "10 Nov 2026",
  "athletes": [
   {
    "place": 7,
@@ -37,74 +37,69 @@
    "score": 1119
   },
   {
-   "place": 218,
+   "place": 219,
    "name": "Agnes Thurid GERS",
    "score": 1060
   },
   {
-   "place": 234,
+   "place": 235,
    "name": "Frida GIERSDORFF",
    "score": 1056
   },
   {
-   "place": 248,
+   "place": 249,
    "name": "Lena ROSSMANITH",
    "score": 1051
   },
   {
-   "place": 252,
+   "place": 253,
    "name": "Leah HANLE",
    "score": 1048
   },
   {
-   "place": 271,
+   "place": 272,
    "name": "Johanna EBERT",
    "score": 1042
   },
   {
-   "place": 349,
+   "place": 350,
    "name": "Lisa SCHUSTER",
    "score": 1021
   },
   {
-   "place": 351,
+   "place": 352,
    "name": "Linda GRUNDMANN",
    "score": 1021
   },
   {
-   "place": 357,
+   "place": 358,
    "name": "Annika BUSER",
    "score": 1020
   },
   {
-   "place": 377,
+   "place": 379,
    "name": "Neele HEYNE",
    "score": 1016
   },
   {
-   "place": 411,
+   "place": 413,
    "name": "Lya BOURGUND",
    "score": 1006
   },
   {
-   "place": 424,
+   "place": 426,
    "name": "Flora GRUNDMANN",
    "score": 1003
   },
   {
-   "place": 425,
+   "place": 427,
    "name": "Hannah LÖSEL",
    "score": 1003
   },
   {
-   "place": 438,
+   "place": 440,
    "name": "Maren GUTHIER",
    "score": 1000
-  },
-  {
-   "place": 499,
-   "name": "Sophie GREBNER",
-   "score": 983
   }
  ]
 }

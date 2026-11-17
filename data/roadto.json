@@ -1,6 +1,6 @@
 {
- "fetched": "2026-11-14",
- "fingerprint": "066a4622fd571105",
+ "fetched": "2026-11-17",
+ "fingerprint": "14c1cd9cc97a4ed9",
  "germanInField": 15,
  "wrAsOf": "10 Nov 2026",
  "maxPerNation": 3,
@@ -142,19 +142,19 @@
      "score": 1191
     },
     {
-     "place": 157,
-     "name": "Adrian ENGSTLER",
-     "score": 1146
+     "place": 153,
+     "name": "Jennie HAUKE",
+     "score": 1134
     },
     {
-     "place": 182,
-     "name": "Louis BUSCHBECK",
-     "score": 1138
+     "place": 155,
+     "name": "Lara TORTELL",
+     "score": 1133
     },
     {
-     "place": 232,
-     "name": "Rocco MARTIN",
-     "score": 1117
+     "place": 197,
+     "name": "Hannah ODENDAHL",
+     "score": 1118
     }
    ],
    "nations": [
@@ -1203,8 +1203,8 @@
     "ranking": 75
    },
    "cutScore": 1064,
-   "listLength": 699,
-   "blocked": 368,
+   "listLength": 700,
+   "blocked": 369,
    "athletes": [
     {
      "name": "Blanka DÖRFEL",
@@ -1461,7 +1461,7 @@
     {
      "nat": "KEN",
      "in": 4,
-     "blocked": 88
+     "blocked": 89
     },
     {
      "nat": "JPN",

@@ -1,5 +1,5 @@
 {
- "asOf": "10 Nov 2026",
+ "asOf": "17 Nov 2026",
  "athletes": [
   {
    "place": 7,
@@ -7,7 +7,7 @@
    "score": 1232
   },
   {
-   "place": 138,
+   "place": 137,
    "name": "Nils VOIGT",
    "score": 1129
   },
@@ -22,12 +22,12 @@
    "score": 1097
   },
   {
-   "place": 474,
+   "place": 469,
    "name": "Jona BODIRSKY",
    "score": 1055
   },
   {
-   "place": 479,
+   "place": 474,
    "name": "Nick JÄGER",
    "score": 1055
   }

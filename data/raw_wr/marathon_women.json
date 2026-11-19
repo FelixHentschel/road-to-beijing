@@ -1,5 +1,5 @@
 {
- "asOf": "10 Nov 2026",
+ "asOf": "17 Nov 2026",
  "athletes": [
   {
    "place": 66,
@@ -17,14 +17,14 @@
    "score": 1199
   },
   {
-   "place": 307,
+   "place": 304,
    "name": "Kiara NAHEN",
    "score": 1135
   },
   {
-   "place": 347,
+   "place": 336,
    "name": "Anna LANGERWISCH",
-   "score": 1126
+   "score": 1128
   },
   {
    "place": 372,
@@ -32,29 +32,24 @@
    "score": 1119
   },
   {
-   "place": 390,
+   "place": 391,
    "name": "Nina REUTER",
    "score": 1116
   },
   {
-   "place": 446,
+   "place": 449,
    "name": "Katharina SAATHOFF",
    "score": 1102
   },
   {
-   "place": 468,
+   "place": 472,
    "name": "Kristina HENDEL",
    "score": 1097
   },
   {
-   "place": 479,
+   "place": 486,
    "name": "Jana SOETHOUT",
-   "score": 1096
-  },
-  {
-   "place": 498,
-   "name": "Melina WOLF",
-   "score": 1090
+   "score": 1095
   }
  ]
 }

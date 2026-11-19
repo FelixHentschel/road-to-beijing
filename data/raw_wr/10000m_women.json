@@ -1,5 +1,5 @@
 {
- "asOf": "10 Nov 2026",
+ "asOf": "17 Nov 2026",
  "athletes": [
   {
    "place": 43,
@@ -17,17 +17,17 @@
    "score": 1166
   },
   {
-   "place": 73,
+   "place": 74,
    "name": "Eva DIETERICH",
    "score": 1163
   },
   {
-   "place": 134,
+   "place": 132,
    "name": "Fabienne KÖNIGSTEIN",
    "score": 1128
   },
   {
-   "place": 143,
+   "place": 141,
    "name": "Alina REH",
    "score": 1125
   },
@@ -47,7 +47,7 @@
    "score": 1103
   },
   {
-   "place": 248,
+   "place": 247,
    "name": "Kira WEIS",
    "score": 1093
   },
@@ -62,22 +62,22 @@
    "score": 1087
   },
   {
-   "place": 315,
+   "place": 314,
    "name": "Lotte MEYBERG",
    "score": 1073
   },
   {
-   "place": 334,
+   "place": 329,
    "name": "Nele HEYMANN",
    "score": 1069
   },
   {
-   "place": 418,
+   "place": 409,
    "name": "Jette BEERMANN",
    "score": 1048
   },
   {
-   "place": 495,
+   "place": 482,
    "name": "Julia KÜMPERS",
    "score": 1033
   }
